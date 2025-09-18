@@ -2,16 +2,16 @@
 *Assessment date: 18 Sep 2025*
 
 ## Executive Summary
-Since June 2025, creative-AI tooling has focused on controllability, live co-creation, and commercial-safe licensing. Diffusion newcomers such as **Flux 1.0** and **Midjourney v7** tightened typography and reference controls, while **Adobe Firefly 3** leaned into brand-ready vectors. Video engines—**Runway Gen-3 Turbo** and **Luma Dream Machine 2**—closed the gap between previz and production with character locking and editable motion paths. Audio leaders **Suno v4** and **ElevenLabs Voice Engine 2025** now output stems and compliance metadata, pairing neatly with **Adobe Enhance Speech 2** for cleanup. **ComfyUI 2025 LTS** and **TouchDesigner 2025.20000** anchor customizable workflows that bridge open checkpoints with studio routing, as multimodal copilots (**OpenAI GPT-4o Realtime Studio**, **Claude 3.5 Sonnet**, **Gemini 2.0 Advanced**) orchestrate toolchains in real time. Dataset platforms such as **Scenario 3.0** and **Krea Styles Library** mainstreamed rights-aware finetuning. Ten tools every modern creator should monitor: Flux 1.0, Midjourney v7, Adobe Firefly 3, Runway Gen-3 Turbo, Luma Dream Machine 2, Suno v4, ElevenLabs Voice Engine 2025, ComfyUI 2025 LTS, TouchDesigner 2025, Scenario 3.0.
+Since June 2025, creative-AI tooling has focused on controllability, live co-creation, and commercial-safe licensing. Diffusion newcomers such as **Flux** and **Midjourney v7** tightened typography and reference controls, while **Adobe Firefly** leaned into brand-ready vectors. Video engines—**Runway Gen-3 Turbo** and **Luma Dream Machine 2**—closed the gap between previz and production with character locking and editable motion paths. Audio leaders **Suno v4** and **ElevenLabs Voice Engine 2025** now output stems and compliance metadata, pairing neatly with **Adobe Enhance Speech 2** for cleanup. **ComfyUI** and **TouchDesigner 2025.20000** anchor customizable workflows that bridge open checkpoints with studio routing, as multimodal copilots (**OpenAI GPT-4o Realtime Studio**, **Claude 3.5 Sonnet**, **Gemini 2.0 Advanced**) orchestrate toolchains in real time. Dataset platforms such as **Scenario 3.0** and **Krea Styles Library** mainstreamed rights-aware finetuning. Ten tools every modern creator should monitor: Flux, Midjourney v7, Adobe Firefly, Runway Gen-3 Turbo, Luma Dream Machine 2, Suno v4, ElevenLabs Voice Engine 2025, ComfyUI, TouchDesigner 2025, Scenario 3.0.
 
 ## Category Shortlists
 
 ### Image Generation & Editing
 | Tool | What it’s best for | Control levers | Output quality notes | Cost tier | License | Local vs Cloud | API? | Update pulse | Link |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Flux 1.0 | Cinematic photoreal with open weights | Prompt, depth, ControlNet, style refs | Clean edges, SDXL-class detail | Free | Open (Apache-2.0) | Hybrid | Yes | Aug 2025 weights refresh | https://playground.bfl.ai/ |
+| Flux | Cinematic photoreal with open weights | Prompt, depth, ControlNet, style refs | Clean edges, SDXL-class detail | Free | Open (Apache-2.0) | Hybrid | Yes | Aug 2025 weights refresh | https://playground.bfl.ai/ |
 | Midjourney v7 | Stylized illustration & typography | Prompt, style ref, region remix | Strong composition, limited text fidelity | <$30 | Proprietary | Cloud | No | Jul 2025 beta drop | https://www.midjourney.com |
-| Adobe Firefly 3 | Brand-safe campaigns & vector fills | Prompt, reference image, type mask | CMYK-safe, tight typography | $30–$100 | Proprietary | Cloud | Yes | Aug 2025 release notes | https://www.adobe.com/products/firefly.html |
+| Adobe Firefly | Brand-safe campaigns & vector fills | Prompt, reference image, type mask | CMYK-safe, tight typography | $30–$100 | Proprietary | Cloud | Yes | Aug 2025 release notes | https://www.adobe.com/products/firefly.html |
 | Ideogram 2.0 | Logo & headline ideation | Prompt, layout guides, glyph lock | Crisp lettering, limited photoreal | <$30 | Proprietary | Cloud | No | Jun 2025 type pack | https://ideogram.ai |
 | Krea Canvas 2 | Hybrid raster/vector concepting | Prompt, brush, layer masks, animation frames | SDXL-level detail, exportable vectors | <$30 | Proprietary | Cloud | Planned | Sep 2025 canvas revamp | https://www.krea.ai |
 
@@ -54,7 +54,7 @@ Since June 2025, creative-AI tooling has focused on controllability, live co-cre
 ### Creative Coding & Workflow Builders
 | Tool | What it’s best for | Control levers | Output quality notes | Cost tier | License | Local vs Cloud | API? | Update pulse | Link |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ComfyUI 2025 LTS | Node-based diffusion pipelines | Nodes, Python hooks, ControlNet | Studio-ready, GPU dependent | Free | Open (Apache-2.0) | Local | REST | Aug 2025 LTS | https://github.com/comfyanonymous/ComfyUI |
+| ComfyUI | Node-based diffusion pipelines | Nodes, Python hooks, ControlNet | Studio-ready, GPU dependent | Free | Open (Apache-2.0) | Local | REST | Aug 2025 LTS | https://github.com/comfyanonymous/ComfyUI |
 | TouchDesigner 2025.20000 | Interactive installations + AI TOPs | DAT scripts, SOPs, model TOP | Real-time, pro-level learning curve | >$100 | Proprietary | Desktop | Yes | Jul 2025 build | https://derivative.ca |
 | Fooocus 2 Control Suite | Lightweight diffusion with control nodes | Prompt, region paint, ControlNets | Fast iteration, limited batch tools | Free | Open (GPL) | Local | No | Jun 2025 release | https://github.com/lllyasviel/fooocus |
 | RunDiffusion Control Panel | Managed SD/Flux cloud rendering | Workflow templates, LoRA slots | Consistent renders, queue-based | $30–$100 | Proprietary | Cloud | Yes | Aug 2025 update | https://rundiffusion.com |
@@ -98,8 +98,8 @@ Since June 2025, creative-AI tooling has focused on controllability, live co-cre
 
 ## Starter Stacks
 ### Solo Illustrator / Designer
-- **Free:** Flux 1.0 + ComfyUI 2025 + Diffusion Inspector + Krea Styles Library. *Why:* Full local control, quality checks, and style packs without subscription (assumes GPU access).
-- **Prosumer (<$100/mo):** Midjourney v7 + Adobe Firefly 3 + Krea Workflows + PromptLayer 2. *Why:* Balances fast ideation, typography fidelity, workflow automation, and prompt tracking.
+- **Free:** Flux + ComfyUI + Diffusion Inspector + Krea Styles Library. *Why:* Full local control, quality checks, and style packs without subscription (assumes GPU access).
+- **Prosumer (<$100/mo):** Midjourney v7 + Adobe Firefly + Krea Workflows + PromptLayer 2. *Why:* Balances fast ideation, typography fidelity, workflow automation, and prompt tracking.
 - **Studio (>$100/mo):** Adobe Creative Cloud (Firefly 3 + Illustrator) + Scenario 3.0 + OpenAI GPT-4o Studio + Rightsify Radar. *Why:* Brand-safe generation, compliant custom LoRAs, agentic briefs, and licensing assurance for client delivery.
 
 ### Short-form Video Creator
@@ -113,7 +113,7 @@ Since June 2025, creative-AI tooling has focused on controllability, live co-cre
 - **Studio (>$100/mo):** Avid Pro Tools + Suno Enterprise + ElevenLabs Enterprise + Descript Sound Studio + Rightsify Radar. *Why:* Combines pro DAW workflows with AI songwriting, multi-voice localization, collaborative edits, and licensing compliance.
 
 ### Indie Game / 3D Artist
-- **Free:** TripoSR 2 + Hyperspace Gaussian Studio + ComfyUI 2025 + Krea Styles Library. *Why:* Builds 3D bases, spatial renders, and texture styles entirely locally.
+- **Free:** TripoSR 2 + Hyperspace Gaussian Studio + ComfyUI + Krea Styles Library. *Why:* Builds 3D bases, spatial renders, and texture styles entirely locally.
 - **Prosumer (<$100/mo):** Luma Field + Kaedim 3.0 + Scenario 3.0 + TouchDesigner 2025. *Why:* Speeds asset creation, clean topology, custom style finetunes, and interactive previews without enterprise spend.
 - **Studio (>$100/mo):** Unreal Engine 5 + Luma Field Enterprise + Kaedim 3.0 Studio + NVIDIA Omniverse + Weavy SDK. *Why:* Production-ready asset pipeline with collaboration hooks for larger teams.
 
@@ -131,7 +131,7 @@ Since June 2025, creative-AI tooling has focused on controllability, live co-cre
 
 ## Citations
 See vendor sites and release notes for currency:
-- Flux 1.0 — https://playground.bfl.ai/ • https://blackforestlabs.ai/blog
+- Flux — https://playground.bfl.ai/ • https://blackforestlabs.ai/blog
 - Midjourney — https://www.midjourney.com • https://docs.midjourney.com/changelog
 - Adobe Firefly — https://www.adobe.com/products/firefly.html • https://helpx.adobe.com/firefly/release-notes.html
 - Ideogram — https://ideogram.ai • https://medium.com/@ideogram-ai
@@ -184,9 +184,9 @@ See vendor sites and release notes for currency:
 ## Master Table CSV
 ```
 Tool,Category,What it’s best for,Control levers,Output quality notes,Cost tier,License,Local vs Cloud,API?,Update pulse,Link
-Flux 1.0,Image Generation & Editing,Cinematic photoreal with open weights,"Prompt; depth; ControlNet; style refs","Clean edges, SDXL-class detail",Free,"Open (Apache-2.0)",Hybrid,Yes,"Aug 2025 weights refresh",https://playground.bfl.ai/
+Flux,Image Generation & Editing,Cinematic photoreal with open weights,"Prompt; depth; ControlNet; style refs","Clean edges, SDXL-class detail",Free,"Open (Apache-2.0)",Hybrid,Yes,"Aug 2025 weights refresh",https://playground.bfl.ai/
 Midjourney v7,Image Generation & Editing,Stylized illustration & typography,"Prompt; style ref; region remix","Strong composition, limited text fidelity","<$30",Proprietary,Cloud,No,"Jul 2025 beta drop",https://www.midjourney.com
-Adobe Firefly 3,Image Generation & Editing,Brand-safe campaigns & vector fills,"Prompt; reference image; type mask","CMYK-safe, tight typography","$30–$100",Proprietary,Cloud,Yes,"Aug 2025 release notes",https://www.adobe.com/products/firefly.html
+Adobe Firefly,Image Generation & Editing,Brand-safe campaigns & vector fills,"Prompt; reference image; type mask","CMYK-safe, tight typography","$30–$100",Proprietary,Cloud,Yes,"Aug 2025 release notes",https://www.adobe.com/products/firefly.html
 Ideogram 2.0,Image Generation & Editing,Logo & headline ideation,"Prompt; layout guides; glyph lock","Crisp lettering, limited photoreal","<$30",Proprietary,Cloud,No,"Jun 2025 type pack",https://ideogram.ai
 Krea Canvas 2,Image Generation & Editing,Hybrid raster/vector concepting,"Prompt; brush; layer masks; animation frames","SDXL-level detail, exportable vectors","<$30",Proprietary,Cloud,Planned,"Sep 2025 canvas revamp",https://www.krea.ai
 Runway Gen-3 Turbo,Video & Animation,Shot-ready motion design,"Prompt; storyboard; camera path; keyframe track","1080p/24fps, good face retention","$30–$100",Proprietary,Cloud,Yes,"Aug 2025 Turbo upgrade",https://runwayml.com
@@ -209,7 +209,7 @@ DeepMotion HyperBody,Avatars & VTubing,Full-body mocap & animation,"Video ref; r
 Animaze 2025,Avatars & VTubing,VTuber face/body puppeteering,"Blendshape sliders; props; filters","60 fps, supports OSC","<$30",Proprietary,Desktop,SDK,"Jun 2025 update",https://www.animaze.us
 VTube Studio Pro,Avatars & VTubing,2D Live2D streaming,"Face tracking; hotkeys; physics","Stable capture, strong plugins",Free,Proprietary,"Desktop/Mobile",SDK,"Jul 2025 release",https://denchisoft.com
 OBS AvatarKit,Avatars & VTubing,Open-source avatar integration,"OSC; MIDI; ARKit blendshapes","Depends on rig, DIY setup",Free,"Open (GPL)",Local,"Plugin API","Aug 2025 release",https://github.com/obsproject/obs-avatarkit
-ComfyUI 2025 LTS,Creative Coding & Workflow Builders,Node-based diffusion pipelines,"Nodes; Python hooks; ControlNet","Studio-ready, GPU dependent",Free,"Open (Apache-2.0)",Local,REST,"Aug 2025 LTS",https://github.com/comfyanonymous/ComfyUI
+ComfyUI,Creative Coding & Workflow Builders,Node-based diffusion pipelines,"Nodes; Python hooks; ControlNet","Studio-ready, GPU dependent",Free,"Open (Apache-2.0)",Local,REST,"Aug 2025 LTS",https://github.com/comfyanonymous/ComfyUI
 TouchDesigner 2025.20000,Creative Coding & Workflow Builders,Interactive installations + AI TOPs,"DAT scripts; SOPs; model TOP","Real-time, pro-level learning curve",">$100",Proprietary,Desktop,Yes,"Jul 2025 build",https://derivative.ca
 Fooocus 2 Control Suite,Creative Coding & Workflow Builders,Lightweight diffusion with control nodes,"Prompt; region paint; ControlNets","Fast iteration, limited batch tools",Free,"Open (GPL)",Local,No,"Jun 2025 release",https://github.com/lllyasviel/fooocus
 RunDiffusion Control Panel,Creative Coding & Workflow Builders,Managed SD/Flux cloud rendering,"Workflow templates; LoRA slots","Consistent renders, queue-based","$30–$100",Proprietary,Cloud,Yes,"Aug 2025 update",https://rundiffusion.com

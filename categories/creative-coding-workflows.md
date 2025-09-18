@@ -4,7 +4,7 @@ Tools that help technical artists mix code, automation, and generative technique
 
 > **Add a tool:** call out supported languages, runtime requirements, and how it fits into production workflows.
 
-## ComfyUI 2025 LTS
+## ComfyUI
 - **Website:** https://github.com/comfyanonymous/ComfyUI
 - **Tags:** open-source, node-editor, workflow, automation
 - **License:** Apache-2.0

@@ -16,7 +16,7 @@ Tools that help artists and designers turn text, sketches, and data into finishe
 > - **Update Pulse:** Optional note (e.g., "GitHub commits within 30 days" or "Quarterly releases")
 > ```
 
-## Adobe Firefly 3
+## Adobe Firefly
 - **Website:** https://www.adobe.com/products/firefly.html
 - **Tags:** proprietary, text-to-image, vector, brand-safe
 - **License:** Proprietary (Creative Cloud subscription)
@@ -26,7 +26,7 @@ Tools that help artists and designers turn text, sketches, and data into finishe
   - Rapidly explore text effects, vector fills, and style variations from prompts
 - **Update Pulse:** Aug 2025 release notes highlight CMYK-safe typography upgrades
 
-## Adobe Photoshop 2025
+## Adobe Photoshop
 - **Website:** https://www.adobe.com/products/photoshop.html
 - **Tags:** proprietary, editing, generative-fill, workflow
 - **License:** Proprietary (Creative Cloud subscription)
@@ -36,7 +36,7 @@ Tools that help artists and designers turn text, sketches, and data into finishe
   - Extend or repair imagery with contextual Generative Fill and outpainting
 - **Update Pulse:** Aug 2025 release notes cover Generative Fill 2.0 and Reference Match
 
-## ComfyUI 2025 LTS
+## ComfyUI
 - **Website:** https://github.com/comfyanonymous/ComfyUI
 - **Tags:** open-source, node-editor, controlnet, workflow
 - **License:** Apache-2.0
@@ -46,7 +46,7 @@ Tools that help artists and designers turn text, sketches, and data into finishe
   - Integrate depth and ControlNet modules for high-consistency renders
 - **Update Pulse:** Aug 2025 LTS build published on GitHub releases
 
-## Flux 1.0
+## Flux
 - **Website:** https://playground.bfl.ai/
 - **Tags:** open-source, text-to-image, controlnet, photoreal
 - **License:** Apache-2.0
