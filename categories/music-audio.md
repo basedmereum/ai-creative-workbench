@@ -4,32 +4,52 @@ Composition, sound design, and post-production AI that keeps musicians in the lo
 
 > **Add a tool:** include licensing for sample packs and note export options (stems, MIDI, WAV, etc.).
 
-## Adobe Enhance Speech
-- **Website:** https://podcasters.spotify.com/enhance?ref=adobe
+## Adobe Enhance Speech 2
+- **Website:** https://podcasters.adobe.com/enhance
 - **Tags:** proprietary, audio-cleanup, speech
 - **License:** Proprietary (Creative Cloud subscription)
-- **Overview:** AI-powered speech enhancement that removes noise and balances levels for interviews, podcasts, and video dialogue.
+- **Overview:** AI-powered speech enhancement that removes noise, balances levels, and restores clarity in dialogue.
 - **Use Cases:**
-  - Rescue on-location dialogue with heavy background noise
-  - Prep clean voiceovers and interviews before mixing sessions
-- **Update Pulse:** Feature updates rolled into Adobe Podcast and Creative Cloud releases
+  - Rescue on-location interviews with heavy ambient noise or echo
+  - Prep clean voiceovers and podcasts before mixing or mastering sessions
+- **Update Pulse:** Jul 2025 release notes cover batch processing upgrades
 
-## AIVA
-- **Website:** https://www.aiva.ai
-- **Tags:** proprietary, composer, adaptive-score
-- **License:** Proprietary (tiered plans)
-- **Overview:** Virtual composer that produces orchestral, cinematic, and pop arrangements with exportable MIDI and STEMs.
+## Descript Sound Studio
+- **Website:** https://www.descript.com
+- **Tags:** proprietary, podcast, editing, overdub
+- **License:** Proprietary (subscription)
+- **Overview:** Multitrack DAW with script-based editing, AI co-host voices, and collaborative review workflows.
 - **Use Cases:**
-  - Draft cinematic cues for trailers with adjustable mood sliders
-  - Create adaptive game soundtracks that respond to player state
-- **Update Pulse:** Quarterly engine updates announced via newsletter
+  - Edit podcasts by editing text transcripts with instant audio updates
+  - Generate pickup lines or alternate reads using overdub voice models
+- **Update Pulse:** Jun 2025 Sound Studio relaunch announced on Descript blog
 
-## Suno AI
+## ElevenLabs Voice Engine 2025
+- **Website:** https://elevenlabs.io
+- **Tags:** proprietary, voice, dubbing, localization
+- **License:** Proprietary
+- **Overview:** Enterprise-grade voice cloning with emotion curves, safety filters, and multilingual dubbing support.
+- **Use Cases:**
+  - Localize scripted content across languages while preserving tone
+  - Generate ADR passes with controllable inflection for post-production
+- **Update Pulse:** Jul 2025 release notes published in ElevenLabs newsroom
+
+## OpenVoice 2
+- **Website:** https://github.com/myshell-ai/OpenVoice
+- **Tags:** open-source, voice, cloning, toolkit
+- **License:** MIT
+- **Overview:** Open-source voice cloning toolkit supporting speaker prompts, pitch control, and fast inference on consumer GPUs.
+- **Use Cases:**
+  - Prototype ADR or character voices locally without cloud dependencies
+  - Build custom dubbing pipelines that integrate with DAWs and plugins
+- **Update Pulse:** Aug 2025 checkpoints released on GitHub
+
+## Suno v4
 - **Website:** https://suno.ai
-- **Tags:** proprietary, text-to-music, vocal-synthesis
-- **License:** Proprietary (commercial licensing available)
-- **Overview:** Text-to-music generator with multi-section songs, full vocals, and arrangement controls built for creators.
+- **Tags:** proprietary, text-to-music, stems, songwriting
+- **License:** Proprietary (subscription)
+- **Overview:** Text-to-music generator producing full songs with lyric guidance, stem exports, and structured arrangements.
 - **Use Cases:**
-  - Mock up soundtrack ideas before hiring session musicians
-  - Generate royalty-clear background music tailored to podcast pacing
-- **Update Pulse:** Product changelog updated bi-weekly
+  - Draft sync-friendly tracks with verse/chorus structure in minutes
+  - Generate alternate mixes and instrumentals for social cutdowns
+- **Update Pulse:** Aug 2025 model update detailed on the Suno blog

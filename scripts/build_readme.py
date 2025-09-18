@@ -38,9 +38,13 @@ CATEGORY_DEFS = [
     ("Image Generation", Path("categories/image-generation.md")),
     ("Video & Animation", Path("categories/video-animation.md")),
     ("Music & Audio", Path("categories/music-audio.md")),
+    ("3D & Spatial", Path("categories/3d-spatial.md")),
+    ("Avatars & VTubing", Path("categories/avatars-vtubing.md")),
     ("Creative Coding & Workflows", Path("categories/creative-coding-workflows.md")),
     ("Collaboration Tools", Path("categories/collaboration-tools.md")),
     ("Multi-Modal Systems", Path("categories/multi-modal-systems.md")),
+    ("Evaluation & Control", Path("categories/evaluation-control.md")),
+    ("Datasets, Stock & Training", Path("categories/datasets-training.md")),
 ]
 
 

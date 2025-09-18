@@ -4,32 +4,52 @@ Spaces where teams brainstorm, review, and ship creative work with AI assistance
 
 > **Add a tool:** highlight how feedback, versioning, and integrations keep teams in sync.
 
-## Figma AI
+## Figma AI + Dev Mode
 - **Website:** https://www.figma.com
-- **Tags:** proprietary, design, copilot
+- **Tags:** proprietary, design, handoff, collaboration
+- **License:** Proprietary (subscription)
+- **Overview:** Figma's AI-assisted Dev Mode pairs design-to-code specs with generative layout and content suggestions.
+- **Use Cases:**
+  - Summarize feedback threads and generate annotated dev handoff packages
+  - Explore alternate layouts or copy variants without leaving shared files
+- **Update Pulse:** Aug 2025 Dev Mode release notes published on Figma blog
+
+## Frame.io Camera-to-Cloud AI
+- **Website:** https://www.frame.io
+- **Tags:** proprietary, video-review, transcription, workflow
 - **License:** Proprietary
-- **Overview:** Native AI assistant that accelerates layout generation, content fills, and asset organization within Figma files.
+- **Overview:** Cloud-native video collaboration with automatic proxy ingest, AI transcripts, and compare stacks for editors.
 - **Use Cases:**
-  - Generate first-draft UI states to unblock brainstorms
-  - Summarize feedback threads and TODOs across multiple design files
-- **Update Pulse:** Rolling beta updates announced at Config and through release notes
+  - Review 4K footage with synchronized comments and version comparisons
+  - Generate transcripts and highlights for faster post-production turnover
+- **Update Pulse:** Jul 2025 Camera-to-Cloud update covered on Frame.io blog
 
-## Notion AI
+## Krock.io AI Review
+- **Website:** https://www.krock.io
+- **Tags:** proprietary, storyboard, animation, review
+- **License:** Proprietary
+- **Overview:** Pipeline tool for animation and storyboard teams featuring AI summaries, status rules, and client review portals.
+- **Use Cases:**
+  - Manage storyboard approvals with automated summaries for stakeholders
+  - Keep animation projects aligned with status-driven workflows and notes
+- **Update Pulse:** Jul 2025 platform update outlined on Krock.io blog
+
+## Notion AI Workspaces
 - **Website:** https://www.notion.so/product/ai
-- **Tags:** proprietary, documentation, copilot, workspace
+- **Tags:** proprietary, documentation, workspace, copilot
 - **License:** Proprietary (add-on subscription)
-- **Overview:** Embedded AI partner that drafts docs, summarizes feedback, and translates creative briefs within shared workspaces.
+- **Overview:** Embedded AI partner that drafts briefs, summarizes feedback, and automates content within shared Notion databases.
 - **Use Cases:**
-  - Turn client call notes into structured creative briefs for teams
-  - Summarize project timelines and blockers for weekly creative reviews
-- **Update Pulse:** Continuous feature releases announced in Notion changelog
+  - Turn meeting notes into structured creative briefs for distributed teams
+  - Generate project timelines and blockers for weekly creative reviews
+- **Update Pulse:** Jun 2025 product update announced in Notion changelog
 
-## Weavy
+## Weavy 2025 SDK
 - **Website:** https://www.weavy.com
-- **Tags:** proprietary, embeddable, collaboration, workflow
-- **License:** Proprietary (SDK licensing)
-- **Overview:** Drop-in collaboration SDK that adds AI summaries, chat, annotations, and task tracking to creative applications.
+- **Tags:** proprietary, embeddable, collaboration, sdk
+- **License:** Proprietary
+- **Overview:** Drop-in collaboration SDK adding AI summaries, chat, annotations, and asset review to custom creative tools.
 - **Use Cases:**
   - Embed AI-assisted review threads inside design systems or DAM platforms
-  - Give clients a branded portal for annotating video and image assets in context
-- **Update Pulse:** SDK releases posted every few weeks
+  - Provide clients with branded portals for annotating assets in context
+- **Update Pulse:** Aug 2025 SDK release detailed on Weavy blog
