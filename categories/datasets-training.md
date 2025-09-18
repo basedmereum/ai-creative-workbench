@@ -24,6 +24,16 @@ Curated resources for training, fine-tuning, and licensing AI-ready creative ass
   - Vet community models against licensing requirements before deployment
 - **Update Pulse:** Aug 2025 scan cycle communicated on Civitai blog
 
+## Freepik
+- **Website:** https://www.freepik.com
+- **Tags:** stock, assets, licensing, dataset
+- **License:** Proprietary (subscription)
+- **Overview:** Global stock marketplace pairing licensed vector, photo, and AI-generated assets with tools for attribution and usage tracking.
+- **Use Cases:**
+  - Source commercially-cleared imagery or AI renders for campaign work without manual rights review
+  - Build moodboards and training datasets from curated packs with consistent licensing metadata
+- **Update Pulse:** Jul 2025 AI generator and licensing update covered on Freepik product blog
+
 ## Krea Styles Library
 - **Website:** https://www.krea.ai/styles
 - **Tags:** proprietary, styles, presets, diffusion

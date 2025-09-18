@@ -59,9 +59,9 @@ Since June 2025, creative-AI tooling has focused on controllability, live co-cre
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | ComfyUI | Node-based diffusion pipelines | Nodes, Python hooks, ControlNet | Studio-ready, GPU dependent | Free | Open (Apache-2.0) | Local | REST | Aug 2025 LTS | https://github.com/comfyanonymous/ComfyUI |
 | TouchDesigner 2025.20000 | Interactive installations + AI TOPs | DAT scripts, SOPs, model TOP | Real-time, pro-level learning curve | >$100 | Proprietary | Desktop | Yes | Jul 2025 build | https://derivative.ca |
-| Fooocus 2 Control Suite | Lightweight diffusion with control nodes | Prompt, region paint, ControlNets | Fast iteration, limited batch tools | Free | Open (GPL) | Local | No | Jun 2025 release | https://github.com/lllyasviel/fooocus |
-| RunDiffusion Control Panel | Managed SD/Flux cloud rendering | Workflow templates, LoRA slots | Consistent renders, queue-based | $30–$100 | Proprietary | Cloud | Yes | Aug 2025 update | https://rundiffusion.com |
 | Krea Workflows | Browser-based node editor | Prompt, layers, automation triggers | Strong collab, browser GPU reliant | <$30 | Proprietary | Cloud | API beta | Sep 2025 release | https://www.krea.ai/workflows |
+| Fal | Managed inference for creative models | Model selection, queue depth, webhooks | Low-latency outputs, usage dashboards | Pay-per-use | Proprietary | Cloud | Yes | Aug 2025 update | https://fal.ai |
+| Replicate | Hosting & deployment for open checkpoints | Prompt, version pinning, webhook jobs | Reliable scale, variable queuing | Pay-per-use | Proprietary | Cloud | Yes | Jul 2025 changelog | https://replicate.com |
 
 ### Collaboration & Asset Review
 | Tool | What it’s best for | Control levers | Output quality notes | Cost tier | License | Local vs Cloud | API? | Update pulse | Link |
@@ -94,8 +94,8 @@ Since June 2025, creative-AI tooling has focused on controllability, live co-cre
 | Tool | What it’s best for | Control levers | Output quality notes | Cost tier | License | Local vs Cloud | API? | Update pulse | Link |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Scenario 3.0 | Personal-style LoRA training | Dataset curation, tags, usage rights | High-fidelity LoRAs, strong governance | $30–$100 | Proprietary | Cloud | Yes | Jul 2025 release | https://www.scenario.com |
+| Freepik | Licensed stock & AI asset hub | Prompt, asset packs, license filters | Massive library, requires curation | <$30 | Proprietary | Cloud | API beta | Jul 2025 update | https://www.freepik.com |
 | Krea Styles Library | Style presets & datasets | Prompt tags, style packs, license flag | Great for diffusion finetunes | Free | Proprietary | Cloud | API roadmap | Aug 2025 update | https://www.krea.ai/styles |
-| Leap Join | Dataset cleaning & captioning | Auto-caption, NSFW filter, dedupe | Reliable metadata, slower on huge sets | <$30 | Proprietary | Cloud | Yes | Jun 2025 release | https://www.tryleap.ai |
 | Civitai Secure | Open diffusion models w/ licenses | LoRA filters, trust scores | Quality varies, vet carefully | Free | Open (varies) | Cloud/Local | API | Aug 2025 scans | https://civitai.com/secure |
 | Adobe Stock Generative Credits | Rights-cleared stock + gen AI | Prompt, content type, usage license | Commercial safe, limited styles | $30–$100 | Proprietary | Cloud | Yes | Sep 2025 refresh | https://stock.adobe.com |
 
@@ -139,6 +139,7 @@ See vendor sites and release notes for currency:
 - Adobe Firefly — https://www.adobe.com/products/firefly.html • https://helpx.adobe.com/firefly/release-notes.html
 - Ideogram — https://ideogram.ai • https://medium.com/@ideogram-ai
 - Krea — https://www.krea.ai • https://www.krea.ai/changelog
+- Fal — https://fal.ai • https://fal.ai/blog
 - Runway — https://runwayml.com • https://research.runwayml.com/changelog
 - Luma — https://lumalabs.ai • https://blog.lumalabs.ai
 - Pika — https://www.pika.art • https://discord.gg/pika
@@ -164,6 +165,7 @@ See vendor sites and release notes for currency:
 - Fooocus — https://github.com/lllyasviel/fooocus • https://github.com/lllyasviel/fooocus/releases
 - RunDiffusion — https://rundiffusion.com • https://blog.rundiffusion.com
 - Krea Workflows — https://www.krea.ai/workflows • https://www.krea.ai/changelog
+- Replicate — https://replicate.com • https://replicate.com/blog
 - Figma — https://www.figma.com • https://help.figma.com
 - Frame.io — https://www.frame.io • https://blog.frame.io
 - Notion AI — https://www.notion.so/product/ai • https://www.notion.so/help/product-updates
@@ -180,7 +182,7 @@ See vendor sites and release notes for currency:
 - Diffusion Inspector — https://github.com/diffinspect/diffusion-inspector • GitHub releases
 - Rightsify Radar — https://rightsify.com • https://rightsify.com/blog
 - Scenario — https://www.scenario.com • https://www.scenario.com/blog
-- Leap — https://www.tryleap.ai • https://www.tryleap.ai/blog
+- Freepik — https://www.freepik.com • https://www.freepik.com/blog
 - Civitai Secure — https://civitai.com/secure • https://civitai.com/articles
 - Adobe Stock — https://stock.adobe.com • https://helpx.adobe.com/stock/release-notes.html
 
@@ -214,9 +216,11 @@ VTube Studio Pro,Avatars & VTubing,2D Live2D streaming,"Face tracking; hotkeys; 
 OBS AvatarKit,Avatars & VTubing,Open-source avatar integration,"OSC; MIDI; ARKit blendshapes","Depends on rig, DIY setup",Free,"Open (GPL)",Local,"Plugin API","Aug 2025 release",https://github.com/obsproject/obs-avatarkit
 ComfyUI,Creative Coding & Workflow Builders,Node-based diffusion pipelines,"Nodes; Python hooks; ControlNet","Studio-ready, GPU dependent",Free,"Open (Apache-2.0)",Local,REST,"Aug 2025 LTS",https://github.com/comfyanonymous/ComfyUI
 TouchDesigner 2025.20000,Creative Coding & Workflow Builders,Interactive installations + AI TOPs,"DAT scripts; SOPs; model TOP","Real-time, pro-level learning curve",">$100",Proprietary,Desktop,Yes,"Jul 2025 build",https://derivative.ca
-Fooocus 2 Control Suite,Creative Coding & Workflow Builders,Lightweight diffusion with control nodes,"Prompt; region paint; ControlNets","Fast iteration, limited batch tools",Free,"Open (GPL)",Local,No,"Jun 2025 release",https://github.com/lllyasviel/fooocus
-RunDiffusion Control Panel,Creative Coding & Workflow Builders,Managed SD/Flux cloud rendering,"Workflow templates; LoRA slots","Consistent renders, queue-based","$30–$100",Proprietary,Cloud,Yes,"Aug 2025 update",https://rundiffusion.com
 Krea Workflows,Creative Coding & Workflow Builders,Browser-based node editor,"Prompt; layers; automation triggers","Strong collab, browser GPU reliant","<$30",Proprietary,Cloud,"API beta","Sep 2025 release",https://www.krea.ai/workflows
+Fal,Creative Coding & Workflow Builders,Managed inference for creative models,"Model selection; queue depth; webhooks","Low-latency outputs, usage dashboards",Pay-per-use,Proprietary,Cloud,Yes,"Aug 2025 update",https://fal.ai
+Replicate,Creative Coding & Workflow Builders,Hosting & deployment for open checkpoints,"Prompt; version pinning; webhook jobs","Reliable scale, variable queuing",Pay-per-use,Proprietary,Cloud,Yes,"Jul 2025 changelog",https://replicate.com
+RunDiffusion Control Panel,Creative Coding & Workflow Builders,Managed SD/Flux cloud rendering,"Workflow templates; LoRA slots","Consistent renders, queue-based","$30–$100",Proprietary,Cloud,Yes,"Aug 2025 update",https://rundiffusion.com
+Fooocus 2 Control Suite,Creative Coding & Workflow Builders,Lightweight diffusion with control nodes,"Prompt; region paint; ControlNets","Fast iteration, limited batch tools",Free,"Open (GPL)",Local,No,"Jun 2025 release",https://github.com/lllyasviel/fooocus
 Figma Dev Mode + AI,Collaboration & Asset Review,Design-to-dev handoff,"Design tokens; prompt panels","Accurate specs, AI summaries","$30–$100",Proprietary,Cloud,Yes,"Aug 2025 release",https://www.figma.com
 Frame.io Camera-to-Cloud AI,Collaboration & Asset Review,Video review & transcription,"Shot metadata; compare stack","4K proxy, accurate transcripts",">$100",Proprietary,Cloud,Yes,"Jul 2025 update",https://www.frame.io
 Notion AI Workspaces,Collaboration & Asset Review,Creative brief orchestration,"Prompt blocks; database automations","Great for docs, not layout","<$30",Proprietary,Cloud,Yes,"Jun 2025 update",https://www.notion.so/product/ai
@@ -233,8 +237,8 @@ Luma Gauge,Evaluation & Control,Video quality metrics,"Motion score; face lock; 
 Diffusion Inspector,Evaluation & Control,Open-source prompt QA,"Prompt diff; seed compare; safety check","CLI heavy, integrates w/ ComfyUI",Free,"Open (MIT)",Local,CLI,"Jun 2025 release",https://github.com/diffinspect/diffusion-inspector
 Rightsify Radar,Evaluation & Control,Licensing & rights clearance,"Reference scan; catalog lookup","Useful for enterprise compliance",">$100",Proprietary,Cloud,Yes,"Aug 2025 update",https://rightsify.com
 Scenario 3.0,Datasets, Stock & Training,Personal-style LoRA training,"Dataset curation; tags; usage rights","High-fidelity LoRAs, strong governance","$30–$100",Proprietary,Cloud,Yes,"Jul 2025 release",https://www.scenario.com
+Freepik,Datasets, Stock & Training,Licensed stock & AI asset hub,"Prompt; asset packs; license filters","Massive library, requires curation","<$30",Proprietary,Cloud,"API beta","Jul 2025 update",https://www.freepik.com
 Krea Styles Library,Datasets, Stock & Training,Style presets & datasets,"Prompt tags; style packs; license flag","Great for diffusion finetunes",Free,Proprietary,Cloud,"API roadmap","Aug 2025 update",https://www.krea.ai/styles
-Leap Join,Datasets, Stock & Training,Dataset cleaning & captioning,"Auto-caption; NSFW filter; dedupe","Reliable metadata, slower on huge sets","<$30",Proprietary,Cloud,Yes,"Jun 2025 release",https://www.tryleap.ai
 Civitai Secure,Datasets, Stock & Training,Open diffusion models w/ licenses,"LoRA filters; trust scores","Quality varies, vet carefully",Free,Open (varies),"Cloud/Local",API,"Aug 2025 scans",https://civitai.com/secure
 Adobe Stock Generative Credits,Datasets, Stock & Training,Rights-cleared stock + gen AI,"Prompt; content type; usage license","Commercial safe, limited styles","$30–$100",Proprietary,Cloud,Yes,"Sep 2025 refresh",https://stock.adobe.com
 ```

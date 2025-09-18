@@ -6,13 +6,23 @@ Tools that help technical artists mix code, automation, and generative technique
 
 ## ComfyUI
 - **Website:** https://github.com/comfyanonymous/ComfyUI
-- **Tags:** open-source, node-editor, workflow, automation
+- **Tags:** open-source, orchestrator, controlnet, workflow
 - **License:** Apache-2.0
 - **Overview:** Long-term support release that introduces pipeline diffing, collaborative sessions, and SD3/Flux compatibility.
 - **Use Cases:**
   - Build reusable image pipelines with version control for creative teams
   - Integrate depth and ControlNet modules for complex render graphs
 - **Update Pulse:** Aug 2025 LTS build available on GitHub releases
+
+## Fal
+- **Website:** https://fal.ai
+- **Tags:** aggregator, inference, api, workflow
+- **License:** Proprietary (usage-based)
+- **Overview:** Low-latency deployment platform that wraps Flux, SDXL, and other creative checkpoints with scalable inference endpoints and dashboards.
+- **Use Cases:**
+  - Launch production-ready APIs for diffusion, video, or audio models without managing GPUs
+  - Prototype creative apps in notebooks or web frameworks using quick-start REST and WebSocket calls
+- **Update Pulse:** Aug 2025 platform update announced on Fal product blog
 
 ## Fooocus 2 Control Suite
 - **Website:** https://github.com/lllyasviel/fooocus
@@ -43,6 +53,16 @@ Tools that help technical artists mix code, automation, and generative technique
   - Prototype interactive installations that react to camera input in the browser
   - Teach creative coding workshops without deep ML prerequisites
 - **Update Pulse:** Community releases a few times per year
+
+## Replicate
+- **Website:** https://replicate.com
+- **Tags:** aggregator, hosting, api, deployment
+- **License:** Proprietary (usage-based)
+- **Overview:** Model hosting service that turns open and proprietary creative models into versioned endpoints with web playgrounds and queue management.
+- **Use Cases:**
+  - Ship web and mobile apps that call diffusion, video, or audio models via REST and webhook callbacks
+  - Share reproducible prompts and checkpoints with collaborators through hosted demos and collections
+- **Update Pulse:** Jul 2025 infrastructure upgrades detailed on Replicate changelog
 
 ## RunDiffusion Control Panel
 - **Website:** https://rundiffusion.com
