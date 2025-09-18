@@ -18,9 +18,9 @@ Tools that help artists and designers turn text, sketches, and data into finishe
 
 ## Adobe Firefly
 - **Website:** https://www.adobe.com/products/firefly.html
-- **Tags:** proprietary, text-to-image, vector, brand-safe
+- **Tags:** proprietary-model, text-to-image, vector, brand-safe
 - **License:** Proprietary (Creative Cloud subscription)
-- **Overview:** Adobe's generative model suite for brand-safe image, vector, and text effects tightly integrated across Creative Cloud apps.
+- **Overview:** Adobe's in-house diffusion family for brand-safe image, vector, and text effects with tight Creative Cloud integration.
 - **Use Cases:**
   - Generate production-ready marketing art with commercial-safe assets
   - Rapidly explore text effects, vector fills, and style variations from prompts
@@ -28,7 +28,7 @@ Tools that help artists and designers turn text, sketches, and data into finishe
 
 ## Adobe Photoshop
 - **Website:** https://www.adobe.com/products/photoshop.html
-- **Tags:** proprietary, editing, generative-fill, workflow
+- **Tags:** proprietary, editing-suite, generative-fill, workflow
 - **License:** Proprietary (Creative Cloud subscription)
 - **Overview:** Photoshop's 2025 release layers Generative Fill, reference image matching, and non-destructive masks into the classic editor.
 - **Use Cases:**
@@ -38,7 +38,7 @@ Tools that help artists and designers turn text, sketches, and data into finishe
 
 ## ComfyUI
 - **Website:** https://github.com/comfyanonymous/ComfyUI
-- **Tags:** open-source, node-editor, controlnet, workflow
+- **Tags:** open-source, orchestrator, controlnet, workflow
 - **License:** Apache-2.0
 - **Overview:** Long-term support release of the open diffusion node editor with SD3/Flux compatibility and collaborative pipelines.
 - **Use Cases:**
@@ -48,9 +48,9 @@ Tools that help artists and designers turn text, sketches, and data into finishe
 
 ## Flux
 - **Website:** https://playground.bfl.ai/
-- **Tags:** open-source, text-to-image, controlnet, photoreal
+- **Tags:** open-model, model-playground, controlnet, photoreal
 - **License:** Apache-2.0
-- **Overview:** Open diffusion model delivering SDXL-level fidelity with native ControlNet and depth conditioning support.
+- **Overview:** Open diffusion model from Black Forest Labs with an official playground offering ControlNet, depth, and style modules.
 - **Use Cases:**
   - Ship cinematic key art with fine control over lighting and composition
   - Fine-tune on internal datasets for typography-aware campaigns
@@ -58,7 +58,7 @@ Tools that help artists and designers turn text, sketches, and data into finishe
 
 ## Ideogram 2.0
 - **Website:** https://ideogram.ai
-- **Tags:** proprietary, typography, branding, prompt-friendly
+- **Tags:** proprietary-model, typography, branding, prompt-friendly
 - **License:** Proprietary
 - **Overview:** Typography-focused text-to-image generator tuned for logo, poster, and headline compositions.
 - **Use Cases:**
@@ -68,9 +68,9 @@ Tools that help artists and designers turn text, sketches, and data into finishe
 
 ## Krea Canvas 2
 - **Website:** https://www.krea.ai
-- **Tags:** proprietary, canvas, vector, animation
+- **Tags:** aggregator, canvas, vector, animation
 - **License:** Proprietary (subscription)
-- **Overview:** Browser canvas combining diffusion, vector layers, and frame-by-frame animation with prompt and brush control.
+- **Overview:** Browser canvas that routes to multiple models while combining diffusion, vector layers, and frame-by-frame animation with prompt and brush control.
 - **Use Cases:**
   - Sketch key visuals that export directly to SVG or layered PSD
   - Blend AI fills with manual animation frames for motion previews

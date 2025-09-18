@@ -2,18 +2,21 @@
 *Assessment date: 18 Sep 2025*
 
 ## Executive Summary
-Since June 2025, creative-AI tooling has focused on controllability, live co-creation, and commercial-safe licensing. Diffusion newcomers such as **Flux** and **Midjourney v7** tightened typography and reference controls, while **Adobe Firefly** leaned into brand-ready vectors. Video engines—**Runway Gen-3 Turbo** and **Luma Dream Machine 2**—closed the gap between previz and production with character locking and editable motion paths. Audio leaders **Suno v4** and **ElevenLabs Voice Engine 2025** now output stems and compliance metadata, pairing neatly with **Adobe Enhance Speech 2** for cleanup. **ComfyUI** and **TouchDesigner 2025.20000** anchor customizable workflows that bridge open checkpoints with studio routing, as multimodal copilots (**OpenAI GPT-4o Realtime Studio**, **Claude 3.5 Sonnet**, **Gemini 2.0 Advanced**) orchestrate toolchains in real time. Dataset platforms such as **Scenario 3.0** and **Krea Styles Library** mainstreamed rights-aware finetuning. Ten tools every modern creator should monitor: Flux, Midjourney v7, Adobe Firefly, Runway Gen-3 Turbo, Luma Dream Machine 2, Suno v4, ElevenLabs Voice Engine 2025, ComfyUI, TouchDesigner 2025, Scenario 3.0.
+Since June 2025, creative-AI tooling has focused on controllability, live co-creation, and commercial-safe licensing. Diffusion newcomers such as **Flux** and **Midjourney v7** tightened typography and reference controls, while **Adobe Firefly** leaned into brand-ready vectors, and front-end aggregators like **Krea** began routing multiple checkpoints through a unified canvas. Video engines—**Runway Gen-3 Turbo** and **Luma Dream Machine 2**—closed the gap between previz and production with character locking and editable motion paths. Audio leaders **Suno v4** and **ElevenLabs Voice Engine 2025** now output stems and compliance metadata, pairing neatly with **Adobe Enhance Speech 2** for cleanup. **ComfyUI** and **TouchDesigner 2025.20000** anchor customizable workflows that bridge open checkpoints with studio routing, as multimodal copilots (**OpenAI GPT-4o Realtime Studio**, **Claude 3.5 Sonnet**, **Gemini 2.0 Advanced**) orchestrate toolchains in real time. Dataset platforms such as **Scenario 3.0** and **Krea Styles Library** mainstreamed rights-aware finetuning. Ten tools every modern creator should monitor: Flux, Midjourney v7, Adobe Firefly, Runway Gen-3 Turbo, Luma Dream Machine 2, Suno v4, ElevenLabs Voice Engine 2025, ComfyUI, TouchDesigner 2025, Scenario 3.0.
 
 ## Category Shortlists
 
 ### Image Generation & Editing
 | Tool | What it’s best for | Control levers | Output quality notes | Cost tier | License | Local vs Cloud | API? | Update pulse | Link |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Flux | Cinematic photoreal with open weights | Prompt, depth, ControlNet, style refs | Clean edges, SDXL-class detail | Free | Open (Apache-2.0) | Hybrid | Yes | Aug 2025 weights refresh | https://playground.bfl.ai/ |
+| Flux | Open diffusion playground for cinematic photoreal renders | Prompt, depth, ControlNet, style refs | Clean edges, SDXL-class detail | Free | Open (Apache-2.0) | Hybrid | Yes | Aug 2025 weights refresh | https://playground.bfl.ai/ |
 | Midjourney v7 | Stylized illustration & typography | Prompt, style ref, region remix | Strong composition, limited text fidelity | <$30 | Proprietary | Cloud | No | Jul 2025 beta drop | https://www.midjourney.com |
 | Adobe Firefly | Brand-safe campaigns & vector fills | Prompt, reference image, type mask | CMYK-safe, tight typography | $30–$100 | Proprietary | Cloud | Yes | Aug 2025 release notes | https://www.adobe.com/products/firefly.html |
 | Ideogram 2.0 | Logo & headline ideation | Prompt, layout guides, glyph lock | Crisp lettering, limited photoreal | <$30 | Proprietary | Cloud | No | Jun 2025 type pack | https://ideogram.ai |
-| Krea Canvas 2 | Hybrid raster/vector concepting | Prompt, brush, layer masks, animation frames | SDXL-level detail, exportable vectors | <$30 | Proprietary | Cloud | Planned | Sep 2025 canvas revamp | https://www.krea.ai |
+| Krea Canvas 2 | Multi-model canvas for hybrid raster/vector concepting | Prompt, brush, layer masks, animation frames | SDXL-level detail, exportable vectors | <$30 | Proprietary | Cloud | Planned | Sep 2025 canvas revamp | https://www.krea.ai |
+
+
+*Flux, Midjourney, Adobe Firefly, and Ideogram operate first-party models; Krea Canvas 2 aggregates multiple model endpoints through one front end.*
 
 ### Video & Animation
 | Tool | What it’s best for | Control levers | Output quality notes | Cost tier | License | Local vs Cloud | API? | Update pulse | Link |

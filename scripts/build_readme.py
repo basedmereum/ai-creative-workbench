@@ -140,9 +140,13 @@ def build_sections() -> str:
         if not abs_path.exists():
             raise FileNotFoundError(f"Missing category file: {rel_path}")
         entries = parse_category_file(abs_path)
+        extra_note = []
+        if display_name == "Image Generation":
+            extra_note = ["> **Tag legend:** `proprietary-model` marks first-party playgrounds, `aggregator` highlights multi-model front ends."]
         section_lines = [
             f"## {display_name}",
             f"> Full entry template lives in `{rel_path.as_posix()}`.",
+            *extra_note,
             "",
             *build_table(entries),
             "",
