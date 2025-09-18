@@ -4,7 +4,7 @@ Composition, sound design, and post-production AI that keeps musicians in the lo
 
 > **Add a tool:** include licensing for sample packs and note export options (stems, MIDI, WAV, etc.).
 
-## Adobe Enhance Speech 2
+## Adobe Enhance Speech
 - **Website:** https://podcasters.adobe.com/enhance
 - **Tags:** proprietary, audio-cleanup, speech
 - **License:** Proprietary (Creative Cloud subscription)
@@ -24,7 +24,7 @@ Composition, sound design, and post-production AI that keeps musicians in the lo
   - Generate pickup lines or alternate reads using overdub voice models
 - **Update Pulse:** Jun 2025 Sound Studio relaunch announced on Descript blog
 
-## ElevenLabs Voice Engine 2025
+## ElevenLabs Voice Engine
 - **Website:** https://elevenlabs.io
 - **Tags:** proprietary, voice, dubbing, localization
 - **License:** Proprietary
@@ -44,7 +44,7 @@ Composition, sound design, and post-production AI that keeps musicians in the lo
   - Build custom dubbing pipelines that integrate with DAWs and plugins
 - **Update Pulse:** Aug 2025 checkpoints released on GitHub
 
-## Suno v4
+## Suno
 - **Website:** https://suno.ai
 - **Tags:** proprietary, text-to-music, stems, songwriting
 - **License:** Proprietary (subscription)

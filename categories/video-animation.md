@@ -4,7 +4,7 @@ AI copilots and generators for motion design, cinematography, and animation prod
 
 > **Add a tool:** keep descriptions candid, mention any guardrails or export formats, and link to documentation when helpful.
 
-## Adobe Premiere Pro 2025
+## Adobe Premiere Pro
 - **Website:** https://www.adobe.com/products/premiere.html
 - **Tags:** proprietary, editing, sensei, workflow
 - **License:** Proprietary (Creative Cloud subscription)
@@ -14,7 +14,7 @@ AI copilots and generators for motion design, cinematography, and animation prod
   - Auto-balance color and generate filler shots for social or broadcast timelines
 - **Update Pulse:** Aug 2025 release notes highlight Generative Extend and color match tools
 
-## Kling 1.5
+## Kling
 - **Website:** https://klingai.com
 - **Tags:** proprietary, text-to-video, long-form
 - **License:** Proprietary
@@ -24,7 +24,7 @@ AI copilots and generators for motion design, cinematography, and animation prod
   - Prototype episodic content with repeatable characters and scenes
 - **Update Pulse:** Jul 2025 international beta noted on official announcements
 
-## Luma Dream Machine 2
+## Luma Dream Machine
 - **Website:** https://lumalabs.ai
 - **Tags:** proprietary, text-to-video, cinematic, multi-modal
 - **License:** Proprietary
@@ -34,7 +34,7 @@ AI copilots and generators for motion design, cinematography, and animation prod
   - Blend text, image, and video references into cohesive edits
 - **Update Pulse:** Jul 2025 feature rollout summarized in Luma newsletter
 
-## Pika 2.1
+## Pika
 - **Website:** https://www.pika.art
 - **Tags:** proprietary, text-to-video, community, remix
 - **License:** Proprietary

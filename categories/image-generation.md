@@ -56,7 +56,7 @@ Tools that help artists and designers turn text, sketches, and data into finishe
   - Fine-tune on internal datasets for typography-aware campaigns
 - **Update Pulse:** Aug 2025 weights refresh announced on Black Forest Labs blog
 
-## Ideogram 2.0
+## Ideogram
 - **Website:** https://ideogram.ai
 - **Tags:** proprietary-model, typography, branding, prompt-friendly
 - **License:** Proprietary
@@ -66,7 +66,7 @@ Tools that help artists and designers turn text, sketches, and data into finishe
   - Explore slogan and poster variations with crisp glyph control
 - **Update Pulse:** Jun 2025 type pack update shared in release notes
 
-## Krea Canvas 2
+## Krea Canvas
 - **Website:** https://www.krea.ai
 - **Tags:** aggregator, canvas, vector, animation
 - **License:** Proprietary (subscription)
@@ -76,7 +76,7 @@ Tools that help artists and designers turn text, sketches, and data into finishe
   - Blend AI fills with manual animation frames for motion previews
 - **Update Pulse:** Sep 2025 canvas revamp detailed in Krea changelog
 
-## Midjourney v7
+## Midjourney
 - **Website:** https://www.midjourney.com
 - **Tags:** proprietary, concept-art, typography, style-reference
 - **License:** Proprietary (subscription)

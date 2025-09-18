@@ -14,7 +14,7 @@ Generate and refine 3D assets, scans, and scenes for games, film, and spatial ex
   - Convert captures into shareable splat scenes with minimal cleanup
 - **Update Pulse:** Jun 2025 release published on GitHub
 
-## Kaedim 3.0
+## Kaedim
 - **Website:** https://www.kaedim3d.com
 - **Tags:** proprietary, asset-creation, topology, stylized
 - **License:** Proprietary
@@ -44,7 +44,7 @@ Generate and refine 3D assets, scans, and scenes for games, film, and spatial ex
   - Build shared spatial libraries for art departments on location
 - **Update Pulse:** Jul 2025 Atlas update announced on Polycam blog
 
-## TripoSR 2
+## TripoSR
 - **Website:** https://github.com/VAST-AI/triposr
 - **Tags:** open-source, text-to-3d, diffusion, research
 - **License:** Apache-2.0

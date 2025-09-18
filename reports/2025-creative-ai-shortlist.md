@@ -2,7 +2,7 @@
 *Assessment date: 18 Sep 2025*
 
 ## Executive Summary
-Since June 2025, creative-AI tooling has focused on controllability, live co-creation, and commercial-safe licensing. Diffusion newcomers such as **Flux** and **Midjourney v7** tightened typography and reference controls, while **Adobe Firefly** leaned into brand-ready vectors, and front-end aggregators like **Krea** began routing multiple checkpoints through a unified canvas. Video engines—**Runway Gen-3 Turbo** and **Luma Dream Machine 2**—closed the gap between previz and production with character locking and editable motion paths. Audio leaders **Suno v4** and **ElevenLabs Voice Engine 2025** now output stems and compliance metadata, pairing neatly with **Adobe Enhance Speech 2** for cleanup. **ComfyUI** and **TouchDesigner 2025.20000** anchor customizable workflows that bridge open checkpoints with studio routing, as multimodal copilots (**OpenAI Realtime API (`gpt-realtime`)**, **Claude Sonnet 4**, **Gemini 2.5 Pro / Deep Think**) orchestrate toolchains in real time. Dataset platforms such as **Scenario 3.0** and **Krea Styles Library** mainstreamed rights-aware finetuning. Ten tools every modern creator should monitor: Flux, Midjourney v7, Adobe Firefly, Runway Gen-3 Turbo, Luma Dream Machine 2, Suno v4, ElevenLabs Voice Engine 2025, ComfyUI, TouchDesigner 2025, Scenario 3.0.
+Since June 2025, creative-AI tooling has focused on controllability, live co-creation, and commercial-safe licensing. Diffusion newcomers such as **Flux** and **Midjourney** tightened typography and reference controls, while **Adobe Firefly** leaned into brand-ready vectors, and front-end aggregators like **Krea** began routing multiple checkpoints through a unified canvas. Video engines—**Runway Gen-3 Turbo** and **Luma Dream Machine**—closed the gap between previz and production with character locking and editable motion paths. Audio leaders **Suno** and **ElevenLabs Voice Engine** now output stems and compliance metadata, pairing neatly with **Adobe Enhance Speech** for cleanup. **ComfyUI** and **TouchDesigner** anchor customizable workflows that bridge open checkpoints with studio routing, as multimodal copilots (**OpenAI Realtime API (`gpt-realtime`)**, **Claude Sonnet 4**, **Gemini 2.5 Pro / Deep Think**) orchestrate toolchains in real time. Dataset platforms such as **Scenario 3.0** and **Krea Styles Library** mainstreamed rights-aware finetuning. Ten tools every modern creator should monitor: Flux, Midjourney, Adobe Firefly, Runway Gen-3 Turbo, Luma Dream Machine 2, Suno v4, ElevenLabs Voice Engine 2025, ComfyUI, TouchDesigner 2025, Scenario 3.0.
 
 ## Category Shortlists
 
@@ -10,21 +10,21 @@ Since June 2025, creative-AI tooling has focused on controllability, live co-cre
 | Tool | What it’s best for | Control levers | Output quality notes | Cost tier | License | Local vs Cloud | API? | Update pulse | Link |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Flux | Open diffusion playground for cinematic photoreal renders | Prompt, depth, ControlNet, style refs | Clean edges, SDXL-class detail | Free | Open (Apache-2.0) | Hybrid | Yes | Aug 2025 weights refresh | https://playground.bfl.ai/ |
-| Midjourney v7 | Stylized illustration & typography | Prompt, style ref, region remix | Strong composition, limited text fidelity | <$30 | Proprietary | Cloud | No | Jul 2025 beta drop | https://www.midjourney.com |
+| Midjourney | Stylized illustration & typography | Prompt, style ref, region remix | Strong composition, limited text fidelity | <$30 | Proprietary | Cloud | No | Jul 2025 beta drop | https://www.midjourney.com |
 | Adobe Firefly | Brand-safe campaigns & vector fills | Prompt, reference image, type mask | CMYK-safe, tight typography | $30–$100 | Proprietary | Cloud | Yes | Aug 2025 release notes | https://www.adobe.com/products/firefly.html |
-| Ideogram 2.0 | Logo & headline ideation | Prompt, layout guides, glyph lock | Crisp lettering, limited photoreal | <$30 | Proprietary | Cloud | No | Jun 2025 type pack | https://ideogram.ai |
-| Krea Canvas 2 | Multi-model canvas for hybrid raster/vector concepting | Prompt, brush, layer masks, animation frames | SDXL-level detail, exportable vectors | <$30 | Proprietary | Cloud | Planned | Sep 2025 canvas revamp | https://www.krea.ai |
+| Ideogram | Logo & headline ideation | Prompt, layout guides, glyph lock | Crisp lettering, limited photoreal | <$30 | Proprietary | Cloud | No | Jun 2025 type pack | https://ideogram.ai |
+| Krea Canvas | Multi-model canvas for hybrid raster/vector concepting | Prompt, brush, layer masks, animation frames | SDXL-level detail, exportable vectors | <$30 | Proprietary | Cloud | Planned | Sep 2025 canvas revamp | https://www.krea.ai |
 
 
-*Flux, Midjourney, Adobe Firefly, and Ideogram operate first-party models; Krea Canvas 2 aggregates multiple model endpoints through one front end.*
+*Flux, Midjourney, Adobe Firefly, and Ideogram operate first-party models; Krea Canvas aggregates multiple model endpoints through one front end.*
 
 ### Video & Animation
 | Tool | What it’s best for | Control levers | Output quality notes | Cost tier | License | Local vs Cloud | API? | Update pulse | Link |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Runway Gen-3 Turbo | Shot-ready motion design | Prompt, storyboard, camera path, keyframe track | 1080p/24fps, good face retention | $30–$100 | Proprietary | Cloud | Yes | Aug 2025 Turbo upgrade | https://runwayml.com |
 | Luma Dream Machine 2 | Cinematic previz & fly-throughs | Prompt, image ref, camera spline, depth | Strong lighting, occasional motion blur | <$30 | Proprietary | Cloud | API waitlist | Jul 2025 update | https://lumalabs.ai |
-| Pika 2.1 | Social-length loops & remixes | Prompt, inpainting, motion brush | 720p fast renders, stylized | Free | Proprietary | Cloud | Planned | Aug 2025 community patch | https://www.pika.art |
-| Kling 1.5 | Long-form text-to-video | Prompt, storyboard, audio sync | High frame stability, limited regions | <$30 | Proprietary | Cloud | Limited | Jul 2025 international beta | https://klingai.com |
+| Pika | Social-length loops & remixes | Prompt, inpainting, motion brush | 720p fast renders, stylized | Free | Proprietary | Cloud | Planned | Aug 2025 community patch | https://www.pika.art |
+| Kling | Long-form text-to-video | Prompt, storyboard, audio sync | High frame stability, limited regions | <$30 | Proprietary | Cloud | Limited | Jul 2025 international beta | https://klingai.com |
 | Wonder Dynamics Studio 2 | Character replacement in live footage | Actor capture, retarget skeleton, lighting match | VFX-grade compositing, needs clean plates | >$100 | Proprietary | Cloud | Yes | Jun 2025 major update | https://www.wonderdynamics.com |
 
 ### Music & Audio
@@ -40,8 +40,8 @@ Since June 2025, creative-AI tooling has focused on controllability, live co-cre
 | Tool | What it’s best for | Control levers | Output quality notes | Cost tier | License | Local vs Cloud | API? | Update pulse | Link |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Luma Field | Text/image to PBR assets | Prompt, ref pano, camera path | Clean normals, needs manual retopo | <$30 | Proprietary | Cloud | Yes | Aug 2025 update | https://field.lumalabs.ai |
-| TripoSR 2 | Fast open-source 3D diffusion | Prompt, image ref, point cloud | Good base meshes, rough topology | Free | Open (Apache-2.0) | Local | Yes | Jul 2025 release | https://github.com/VAST-AI/triposr |
-| Kaedim 3.0 | Production-ready stylized assets | Concept art upload, style guides | Clean quad mesh, UV’d output | >$100 | Proprietary | Cloud | Yes | Aug 2025 3.0 release | https://www.kaedim3d.com |
+| TripoSR | Fast open-source 3D diffusion | Prompt, image ref, point cloud | Good base meshes, rough topology | Free | Open (Apache-2.0) | Local | Yes | Jul 2025 release | https://github.com/VAST-AI/triposr |
+| Kaedim | Production-ready stylized assets | Concept art upload, style guides | Clean quad mesh, UV’d output | >$100 | Proprietary | Cloud | Yes | Aug 2025 3.0 release | https://www.kaedim3d.com |
 | Polycam Atlas | Photogrammetry with AI cleanup | LiDAR, video capture, mesh refine | High-fidelity scans, auto occlusion fix | <$30 | Proprietary | Mobile/Cloud | Export SDK | Jul 2025 Atlas update | https://poly.cam |
 | Hyperspace Gaussian Studio | Real-time Gaussian splatting | Prompt, camera track, scene edit | Smooth playback, needs GPU | Free | Open (GPL) | Local | CLI | Jun 2025 release | https://github.com/hyperspace-labs/gaussian-studio |
 
@@ -50,7 +50,7 @@ Since June 2025, creative-AI tooling has focused on controllability, live co-cre
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | HeyGen Live | Real-time presenter avatars | Script, camera, emotion sliders | Lifelike, slight latency | <$30 | Proprietary | Cloud | Yes | Aug 2025 live beta | https://www.heygen.com |
 | DeepMotion HyperBody | Full-body mocap & animation | Video ref, retarget skeleton, physics | Smooth mocap, needs cleanup | $30–$100 | Proprietary | Cloud | Yes | Jul 2025 release | https://www.deepmotion.com |
-| Animaze 2025 | VTuber face/body puppeteering | Blendshape sliders, props, filters | 60 fps, supports OSC | <$30 | Proprietary | Desktop | SDK | Jun 2025 update | https://www.animaze.us |
+| Animaze | VTuber face/body puppeteering | Blendshape sliders, props, filters | 60 fps, supports OSC | <$30 | Proprietary | Desktop | SDK | Jun 2025 update | https://www.animaze.us |
 | VTube Studio Pro | 2D Live2D streaming | Face tracking, hotkeys, physics | Stable capture, strong plugins | Free | Proprietary | Desktop/Mobile | SDK | Jul 2025 release | https://denchisoft.com |
 | OBS AvatarKit | Open-source avatar integration | OSC, MIDI, ARKit blendshapes | Depends on rig, DIY setup | Free | Open (GPL) | Local | Plugin API | Aug 2025 release | https://github.com/obsproject/obs-avatarkit |
 
@@ -102,7 +102,7 @@ Since June 2025, creative-AI tooling has focused on controllability, live co-cre
 ## Starter Stacks
 ### Solo Illustrator / Designer
 - **Free:** Flux + ComfyUI + Diffusion Inspector + Krea Styles Library. *Why:* Full local control, quality checks, and style packs without subscription (assumes GPU access).
-- **Prosumer (<$100/mo):** Midjourney v7 + Adobe Firefly + Krea Workflows + PromptLayer 2. *Why:* Balances fast ideation, typography fidelity, workflow automation, and prompt tracking.
+- **Prosumer (<$100/mo):** Midjourney + Adobe Firefly + Krea Workflows + PromptLayer 2. *Why:* Balances fast ideation, typography fidelity, workflow automation, and prompt tracking.
 - **Studio (>$100/mo):** Adobe Creative Cloud (Firefly 3 + Illustrator) + Scenario 3.0 + OpenAI Realtime API (`gpt-realtime`) + Rightsify Radar. *Why:* Brand-safe generation, compliant custom LoRAs, agentic briefs, and licensing assurance for client delivery.
 
 ### Short-form Video Creator
@@ -190,10 +190,10 @@ See vendor sites and release notes for currency:
 ```
 Tool,Category,What it’s best for,Control levers,Output quality notes,Cost tier,License,Local vs Cloud,API?,Update pulse,Link
 Flux,Image Generation & Editing,Cinematic photoreal with open weights,"Prompt; depth; ControlNet; style refs","Clean edges, SDXL-class detail",Free,"Open (Apache-2.0)",Hybrid,Yes,"Aug 2025 weights refresh",https://playground.bfl.ai/
-Midjourney v7,Image Generation & Editing,Stylized illustration & typography,"Prompt; style ref; region remix","Strong composition, limited text fidelity","<$30",Proprietary,Cloud,No,"Jul 2025 beta drop",https://www.midjourney.com
+Midjourney,Image Generation & Editing,Stylized illustration & typography,"Prompt; style ref; region remix","Strong composition, limited text fidelity","<$30",Proprietary,Cloud,No,"Jul 2025 beta drop",https://www.midjourney.com
 Adobe Firefly,Image Generation & Editing,Brand-safe campaigns & vector fills,"Prompt; reference image; type mask","CMYK-safe, tight typography","$30–$100",Proprietary,Cloud,Yes,"Aug 2025 release notes",https://www.adobe.com/products/firefly.html
-Ideogram 2.0,Image Generation & Editing,Logo & headline ideation,"Prompt; layout guides; glyph lock","Crisp lettering, limited photoreal","<$30",Proprietary,Cloud,No,"Jun 2025 type pack",https://ideogram.ai
-Krea Canvas 2,Image Generation & Editing,Hybrid raster/vector concepting,"Prompt; brush; layer masks; animation frames","SDXL-level detail, exportable vectors","<$30",Proprietary,Cloud,Planned,"Sep 2025 canvas revamp",https://www.krea.ai
+Ideogram,Image Generation & Editing,Logo & headline ideation,"Prompt; layout guides; glyph lock","Crisp lettering, limited photoreal","<$30",Proprietary,Cloud,No,"Jun 2025 type pack",https://ideogram.ai
+Krea Canvas,Image Generation & Editing,Hybrid raster/vector concepting,"Prompt; brush; layer masks; animation frames","SDXL-level detail, exportable vectors","<$30",Proprietary,Cloud,Planned,"Sep 2025 canvas revamp",https://www.krea.ai
 Runway Gen-3 Turbo,Video & Animation,Shot-ready motion design,"Prompt; storyboard; camera path; keyframe track","1080p/24fps, good face retention","$30–$100",Proprietary,Cloud,Yes,"Aug 2025 Turbo upgrade",https://runwayml.com
 Luma Dream Machine 2,Video & Animation,Cinematic previz & fly-throughs,"Prompt; image ref; camera spline; depth","Strong lighting, occasional motion blur","<$30",Proprietary,Cloud,"API waitlist","Jul 2025 update",https://lumalabs.ai
 Pika 2.1,Video & Animation,Social-length loops & remixes,"Prompt; inpainting; motion brush","720p fast renders, stylized",Free,Proprietary,Cloud,Planned,"Aug 2025 community patch",https://www.pika.art
@@ -220,7 +220,7 @@ Krea Workflows,Creative Coding & Workflow Builders,Browser-based node editor,"Pr
 Fal,Creative Coding & Workflow Builders,Managed inference for creative models,"Model selection; queue depth; webhooks","Low-latency outputs, usage dashboards",Pay-per-use,Proprietary,Cloud,Yes,"Aug 2025 update",https://fal.ai
 Replicate,Creative Coding & Workflow Builders,Hosting & deployment for open checkpoints,"Prompt; version pinning; webhook jobs","Reliable scale, variable queuing",Pay-per-use,Proprietary,Cloud,Yes,"Jul 2025 changelog",https://replicate.com
 RunDiffusion Control Panel,Creative Coding & Workflow Builders,Managed SD/Flux cloud rendering,"Workflow templates; LoRA slots","Consistent renders, queue-based","$30–$100",Proprietary,Cloud,Yes,"Aug 2025 update",https://rundiffusion.com
-Fooocus 2 Control Suite,Creative Coding & Workflow Builders,Lightweight diffusion with control nodes,"Prompt; region paint; ControlNets","Fast iteration, limited batch tools",Free,"Open (GPL)",Local,No,"Jun 2025 release",https://github.com/lllyasviel/fooocus
+Fooocus Control Suite,Creative Coding & Workflow Builders,Lightweight diffusion with control nodes,"Prompt; region paint; ControlNets","Fast iteration, limited batch tools",Free,"Open (GPL)",Local,No,"Jun 2025 release",https://github.com/lllyasviel/fooocus
 Figma Dev Mode + AI,Collaboration & Asset Review,Design-to-dev handoff,"Design tokens; prompt panels","Accurate specs, AI summaries","$30–$100",Proprietary,Cloud,Yes,"Aug 2025 release",https://www.figma.com
 Frame.io Camera-to-Cloud AI,Collaboration & Asset Review,Video review & transcription,"Shot metadata; compare stack","4K proxy, accurate transcripts",">$100",Proprietary,Cloud,Yes,"Jul 2025 update",https://www.frame.io
 Notion AI Workspaces,Collaboration & Asset Review,Creative brief orchestration,"Prompt blocks; database automations","Great for docs, not layout","<$30",Proprietary,Cloud,Yes,"Jun 2025 update",https://www.notion.so/product/ai

@@ -24,7 +24,7 @@ Tools that help technical artists mix code, automation, and generative technique
   - Prototype creative apps in notebooks or web frameworks using quick-start REST and WebSocket calls
 - **Update Pulse:** Aug 2025 platform update announced on Fal product blog
 
-## Fooocus 2 Control Suite
+## Fooocus Control Suite
 - **Website:** https://github.com/lllyasviel/fooocus
 - **Tags:** open-source, diffusion, controlnet, desktop
 - **License:** GPL-3.0
@@ -84,7 +84,7 @@ Tools that help technical artists mix code, automation, and generative technique
   - Build repeatable pipelines for episodic content delivery
 - **Update Pulse:** Updates ship alongside Runway product releases
 
-## TouchDesigner 2025.20000
+## TouchDesigner
 - **Website:** https://derivative.ca
 - **Tags:** proprietary, realtime, installations, node-editor
 - **License:** Proprietary

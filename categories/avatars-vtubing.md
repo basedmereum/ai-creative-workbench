@@ -4,7 +4,7 @@ Real-time systems for virtual presenters, VTubers, and mocap-driven characters.
 
 > **Add a tool:** specify tracking hardware requirements, streaming integrations, and output formats.
 
-## Animaze 2025
+## Animaze
 - **Website:** https://www.animaze.us
 - **Tags:** proprietary, vtubing, face-tracking, streaming
 - **License:** Proprietary (subscription)
