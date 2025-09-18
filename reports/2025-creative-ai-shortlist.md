@@ -2,7 +2,7 @@
 *Assessment date: 18 Sep 2025*
 
 ## Executive Summary
-Since June 2025, creative-AI tooling has focused on controllability, live co-creation, and commercial-safe licensing. Diffusion newcomers such as **Flux** and **Midjourney v7** tightened typography and reference controls, while **Adobe Firefly** leaned into brand-ready vectors, and front-end aggregators like **Krea** began routing multiple checkpoints through a unified canvas. Video engines—**Runway Gen-3 Turbo** and **Luma Dream Machine 2**—closed the gap between previz and production with character locking and editable motion paths. Audio leaders **Suno v4** and **ElevenLabs Voice Engine 2025** now output stems and compliance metadata, pairing neatly with **Adobe Enhance Speech 2** for cleanup. **ComfyUI** and **TouchDesigner 2025.20000** anchor customizable workflows that bridge open checkpoints with studio routing, as multimodal copilots (**OpenAI GPT-4o Realtime Studio**, **Claude 3.5 Sonnet**, **Gemini 2.0 Advanced**) orchestrate toolchains in real time. Dataset platforms such as **Scenario 3.0** and **Krea Styles Library** mainstreamed rights-aware finetuning. Ten tools every modern creator should monitor: Flux, Midjourney v7, Adobe Firefly, Runway Gen-3 Turbo, Luma Dream Machine 2, Suno v4, ElevenLabs Voice Engine 2025, ComfyUI, TouchDesigner 2025, Scenario 3.0.
+Since June 2025, creative-AI tooling has focused on controllability, live co-creation, and commercial-safe licensing. Diffusion newcomers such as **Flux** and **Midjourney v7** tightened typography and reference controls, while **Adobe Firefly** leaned into brand-ready vectors, and front-end aggregators like **Krea** began routing multiple checkpoints through a unified canvas. Video engines—**Runway Gen-3 Turbo** and **Luma Dream Machine 2**—closed the gap between previz and production with character locking and editable motion paths. Audio leaders **Suno v4** and **ElevenLabs Voice Engine 2025** now output stems and compliance metadata, pairing neatly with **Adobe Enhance Speech 2** for cleanup. **ComfyUI** and **TouchDesigner 2025.20000** anchor customizable workflows that bridge open checkpoints with studio routing, as multimodal copilots (**OpenAI Realtime API (`gpt-realtime`)**, **Claude Sonnet 4**, **Gemini 2.5 Pro / Deep Think**) orchestrate toolchains in real time. Dataset platforms such as **Scenario 3.0** and **Krea Styles Library** mainstreamed rights-aware finetuning. Ten tools every modern creator should monitor: Flux, Midjourney v7, Adobe Firefly, Runway Gen-3 Turbo, Luma Dream Machine 2, Suno v4, ElevenLabs Voice Engine 2025, ComfyUI, TouchDesigner 2025, Scenario 3.0.
 
 ## Category Shortlists
 
@@ -75,11 +75,11 @@ Since June 2025, creative-AI tooling has focused on controllability, live co-cre
 ### Multimodal Assistants & Agentic Workflows
 | Tool | What it’s best for | Control levers | Output quality notes | Cost tier | License | Local vs Cloud | API? | Update pulse | Link |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| OpenAI GPT-4o Realtime Studio | Live creative directing | Voice, vision, tool calling | Fast, multi-stream, needs guardrails | $30–$100 | Proprietary | Cloud | Yes | Aug 2025 upgrades | https://openai.com |
-| Anthropic Claude 3.5 Sonnet | Narrative + design briefs | Prompt, file context, tool use | Reliable tone, cautious image edits | <$30 | Proprietary | Cloud | Yes | Jul 2025 release | https://www.anthropic.com |
-| Google Gemini 2.0 Advanced | Workspace-integrated production | Prompt, doc, sheet, media upload | Strong search, occasional hallucination | $30–$100 | Proprietary | Cloud | Yes | Aug 2025 rollout | https://ai.google/gemini |
-| xAI Grok Creative 3 | Real-time ideation for social/video | Prompt, live data plugins | Bold style, edgy defaults | <$30 | Proprietary | Cloud | API beta | Sep 2025 update | https://x.ai |
-| Llama 4 Studio | Local-friendly creative agent | Prompt, function calls, LoRA packs | 8B local good, 70B cloud better | Free | Open (Llama 4 license) | Hybrid | Yes | Jun 2025 release | https://ai.meta.com/llama |
+| OpenAI Realtime API (`gpt-realtime`) | Live creative directing & assistants | Voice streaming, MCP tools, SIP sessions | Sub-second multimodal responses; ensure network/data policies | Usage-based | Proprietary | Cloud | Yes | Aug 2025 GA; $32/M audio in, $64/M audio out | https://openai.com/index/introducing-gpt-realtime/ |
+| Anthropic Claude Sonnet 4 | Balanced multimodal briefs | Prompt, file uploads, tool use | Strong factuality with safety guardrails | Usage-based | Proprietary | Cloud | Yes | Aug 2025 model refresh; $3/M input, $15/M output | https://www.anthropic.com/claude/sonnet |
+| Google Gemini 2.5 Pro / Deep Think | Workspace-integrated production planning | Prompt, Deep Think, Veo 3 generation | Deep Think adds slower but thorough reasoning | Subscription (AI Pro/Ultra) | Proprietary | Cloud | Yes | Aug 2025 AI Pro/Ultra rollout with Veo 3 | https://gemini.google/subscriptions/ |
+| xAI Grok 4 | Trend-aware ideation & scripting | Prompt, live search, realtime API | Bold tone; review xAI TOS for sensitive work | Subscription/API | Proprietary | Cloud | Yes | Jul 2025 Grok 4 release | https://x.ai |
+| Llama 4 (Scout/Maverick) via Llama Stack | On-prem creative agents | Prompt, tool adapters, telemetry | Requires 8×H100 for realtime; full data control | Free | Llama 4 license | Hybrid | Yes | Sep 2025 Llama Stack 0.2 release adds Llama 4 support | https://github.com/llamastack/llama-stack |
 
 ### Evaluation & Control
 | Tool | What it’s best for | Control levers | Output quality notes | Cost tier | License | Local vs Cloud | API? | Update pulse | Link |
@@ -103,7 +103,7 @@ Since June 2025, creative-AI tooling has focused on controllability, live co-cre
 ### Solo Illustrator / Designer
 - **Free:** Flux + ComfyUI + Diffusion Inspector + Krea Styles Library. *Why:* Full local control, quality checks, and style packs without subscription (assumes GPU access).
 - **Prosumer (<$100/mo):** Midjourney v7 + Adobe Firefly + Krea Workflows + PromptLayer 2. *Why:* Balances fast ideation, typography fidelity, workflow automation, and prompt tracking.
-- **Studio (>$100/mo):** Adobe Creative Cloud (Firefly 3 + Illustrator) + Scenario 3.0 + OpenAI GPT-4o Studio + Rightsify Radar. *Why:* Brand-safe generation, compliant custom LoRAs, agentic briefs, and licensing assurance for client delivery.
+- **Studio (>$100/mo):** Adobe Creative Cloud (Firefly 3 + Illustrator) + Scenario 3.0 + OpenAI Realtime API (`gpt-realtime`) + Rightsify Radar. *Why:* Brand-safe generation, compliant custom LoRAs, agentic briefs, and licensing assurance for client delivery.
 
 ### Short-form Video Creator
 - **Free:** Pika 2.1 + Luma Gauge + OBS AvatarKit + OpenVoice 2. *Why:* Generates stylized clips, checks quality, puppets avatars, and adds voiceover with zero spend.
@@ -171,11 +171,11 @@ See vendor sites and release notes for currency:
 - Notion AI — https://www.notion.so/product/ai • https://www.notion.so/help/product-updates
 - Weavy — https://www.weavy.com • https://www.weavy.com/blog
 - Krock.io — https://www.krock.io • https://www.krock.io/blog
-- OpenAI — https://openai.com • https://platform.openai.com/docs/changelog
-- Anthropic — https://www.anthropic.com • https://www.anthropic.com/news
-- Google Gemini — https://ai.google/gemini • https://workspaceupdates.googleblog.com
-- xAI Grok — https://x.ai • https://twitter.com/xai
-- Llama Studio — https://ai.meta.com/llama • https://ai.meta.com/blog
+- OpenAI — https://openai.com/index/introducing-gpt-realtime/ • https://platform.openai.com/docs/guides/realtime
+- Anthropic — https://www.anthropic.com/claude/sonnet • https://www.anthropic.com/news
+- Google Gemini — https://gemini.google/subscriptions/ • https://workspaceupdates.googleblog.com
+- xAI Grok — https://x.ai • https://x.ai/blog
+- Llama Stack — https://github.com/llamastack/llama-stack • https://ai.meta.com/blog/llama-4-multimodal-intelligence/
 - PromptLayer — https://www.promptlayer.com • https://www.promptlayer.com/changelog
 - Iterate Playbook — https://www.iterate.world • https://www.iterate.world/blog
 - Luma Gauge — https://lumalabs.ai/gauge • https://blog.lumalabs.ai
@@ -226,11 +226,11 @@ Frame.io Camera-to-Cloud AI,Collaboration & Asset Review,Video review & transcri
 Notion AI Workspaces,Collaboration & Asset Review,Creative brief orchestration,"Prompt blocks; database automations","Great for docs, not layout","<$30",Proprietary,Cloud,Yes,"Jun 2025 update",https://www.notion.so/product/ai
 Weavy 2025 SDK,Collaboration & Asset Review,Embed collab in custom tools,"Components; AI summary; tagging","UI depends on integration",">$100",Proprietary,Hybrid,SDK,"Aug 2025 release",https://www.weavy.com
 Krock.io AI Review,Collaboration & Asset Review,Storyboard & video review,"Annotations; status rules; auto summaries","Solid for animation pipeline","$30–$100",Proprietary,Cloud,Yes,"Jul 2025 update",https://www.krock.io
-OpenAI GPT-4o Realtime Studio,Multimodal Assistants & Agentic Workflows,Live creative directing,"Voice; vision; tool calling","Fast, multi-stream, needs guardrails","$30–$100",Proprietary,Cloud,Yes,"Aug 2025 upgrades",https://openai.com
-Anthropic Claude 3.5 Sonnet,Multimodal Assistants & Agentic Workflows,Narrative + design briefs,"Prompt; file context; tool use","Reliable tone, cautious image edits","<$30",Proprietary,Cloud,Yes,"Jul 2025 release",https://www.anthropic.com
-Google Gemini 2.0 Advanced,Multimodal Assistants & Agentic Workflows,Workspace-integrated production,"Prompt; doc; sheet; media upload","Strong search, occasional hallucination","$30–$100",Proprietary,Cloud,Yes,"Aug 2025 rollout",https://ai.google/gemini
-xAI Grok Creative 3,Multimodal Assistants & Agentic Workflows,Real-time ideation for social/video,"Prompt; live data plugins","Bold style, edgy defaults","<$30",Proprietary,Cloud,"API beta","Sep 2025 update",https://x.ai
-Llama 4 Studio,Multimodal Assistants & Agentic Workflows,Local-friendly creative agent,"Prompt; function calls; LoRA packs","8B local good, 70B cloud better",Free,"Open (Llama 4 license)",Hybrid,Yes,"Jun 2025 release",https://ai.meta.com/llama
+OpenAI Realtime API (`gpt-realtime`),Multimodal Assistants & Agentic Workflows,Live creative directing,"Voice streaming; MCP tools; SIP sessions","Sub-second multimodal responses; ensure network/data policies",Usage-based,Proprietary,Cloud,Yes,"Aug 2025 GA; $32/M audio in, $64/M audio out",https://openai.com/index/introducing-gpt-realtime/
+Anthropic Claude Sonnet 4,Multimodal Assistants & Agentic Workflows,Balanced multimodal briefs,"Prompt; file uploads; tool use","Strong factuality with safety guardrails",Usage-based,Proprietary,Cloud,Yes,"Aug 2025 model refresh; $3/M input, $15/M output",https://www.anthropic.com/claude/sonnet
+Google Gemini 2.5 Pro / Deep Think,Multimodal Assistants & Agentic Workflows,Workspace-integrated production,"Prompt; Deep Think; Veo 3 generation","Deep Think adds slower but thorough reasoning","Subscription (AI Pro/Ultra)",Proprietary,Cloud,Yes,"Aug 2025 AI Pro/Ultra rollout",https://gemini.google/subscriptions/
+xAI Grok 4,Multimodal Assistants & Agentic Workflows,Trend-aware ideation & scripting,"Prompt; live search; realtime API","Bold tone; review xAI TOS for sensitive work","Subscription/API",Proprietary,Cloud,Yes,"Jul 2025 Grok 4 release",https://x.ai
+Llama 4 (Scout/Maverick) via Llama Stack,Multimodal Assistants & Agentic Workflows,On-prem creative agents,"Prompt; tool adapters; telemetry","Requires 8×H100 for realtime; full data control",Free,"Llama 4 license",Hybrid,Yes,"Sep 2025 Llama Stack 0.2 release",https://github.com/llamastack/llama-stack
 PromptLayer 2,Evaluation & Control,Prompt/version management,"Versioning; test jobs; metrics","Excellent audit trail","<$30",Proprietary,Cloud,Yes,"Jul 2025 relaunch",https://www.promptlayer.com
 Iterate Playbook,Evaluation & Control,Creative A/B testing,"Prompt variants; human scoring","Strong dashboards, manual curation","$30–$100",Proprietary,Cloud,Yes,"Aug 2025 update",https://www.iterate.world
 Luma Gauge,Evaluation & Control,Video quality metrics,"Motion score; face lock; flicker detect","Good for QC, early access","<$30",Proprietary,Cloud,"API beta","Jul 2025 launch",https://lumalabs.ai/gauge

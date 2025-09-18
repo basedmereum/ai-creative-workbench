@@ -44,16 +44,6 @@ Curated resources for training, fine-tuning, and licensing AI-ready creative ass
   - Share style references across creative teams without manual tagging
 - **Update Pulse:** Aug 2025 library update noted in Krea changelog
 
-## Leap Join
-- **Website:** https://www.tryleap.ai
-- **Tags:** proprietary, dataset-cleaning, captioning, workflow
-- **License:** Proprietary
-- **Overview:** Dataset preparation suite providing auto-captioning, NSFW filtering, and deduplication for custom model training.
-- **Use Cases:**
-  - Clean internal asset libraries before LoRA or finetune jobs
-  - Generate metadata and QA reports for machine learning teams
-- **Update Pulse:** Jun 2025 release announced on Leap blog
-
 ## Scenario 3.0
 - **Website:** https://www.scenario.com
 - **Tags:** proprietary, finetune, style-training, compliance

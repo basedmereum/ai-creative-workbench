@@ -4,52 +4,52 @@ All-in-one studios blending text, images, audio, and code into cohesive creative
 
 > **Add a tool:** include which modalities are supported, any API endpoints, and how creators export final assets.
 
-## Anthropic Claude 3.5 Sonnet
-- **Website:** https://www.anthropic.com
-- **Tags:** proprietary, assistant, text-image, workflow
+## Anthropic Claude Sonnet 4
+- **Website:** https://www.anthropic.com/claude/sonnet
+- **Tags:** proprietary-model, assistant, safety-first, api
 - **License:** Proprietary
-- **Overview:** Claude's latest multimodal model handling documents, images, and structured tool calls with safety-focused responses.
+- **Overview:** Anthropic’s current balanced Claude model (Sonnet 4) offering 200K context, tool calling, and image understanding with strict safety controls across API, Bedrock, and Vertex.
 - **Use Cases:**
-  - Draft narrative treatments and design briefs from mixed media inputs
-  - Review creative assets and generate revision instructions for teams
-- **Update Pulse:** Jul 2025 release post published on Anthropic newsroom
+  - Generate creative briefs or coverage reports that blend text, tables, and image callouts within policy guardrails
+  - Run production review assistants that summarize assets while logging interactions for compliance
+- **Update Pulse:** Aug 2025 model refresh; API priced from $3/M input and $15/M output tokens
 
-## Google Gemini 2.0 Advanced
-- **Website:** https://ai.google/gemini
-- **Tags:** proprietary, assistant, workspace, multi-modal
-- **License:** Proprietary (Google One AI Premium)
-- **Overview:** Google’s enterprise multimodal assistant integrated with Workspace apps, enabling text, image, code, and video reasoning.
+## Google Gemini 2.5 Pro / Deep Think
+- **Website:** https://gemini.google/subscriptions/
+- **Tags:** proprietary-model, workspace, reasoning, video
+- **License:** Proprietary (Gemini AI Pro/Ultra)
+- **Overview:** Google’s latest multimodal suite delivering Gemini 2.5 Pro with Deep Think reasoning plus Veo 3 video on AI Ultra, integrated across Workspace and the Gemini apps.
 - **Use Cases:**
-  - Assemble campaign decks mixing Docs, Sheets, and Slides with AI-sourced assets
-  - Generate production checklists that sync across Workspace projects
-- **Update Pulse:** Aug 2025 rollout covered on Google Workspace Updates blog
+  - Spin up cross-app campaign plans that auto-sync briefs, budget sheets, and Veo 3 storyboard shots for stakeholders
+  - Pair brainstorming sessions with Deep Think long-form reasoning for treatments or shot lists
+- **Update Pulse:** Aug 2025 AI Pro/Ultra rollout; subscription includes expanded context and Veo 3 credits
 
-## Llama 4 Studio
-- **Website:** https://ai.meta.com/llama
-- **Tags:** open-source, assistant, local-friendly, agent
-- **License:** LLAMA 4 license
-- **Overview:** Meta’s toolchain for running Llama 4 locally or in the cloud with function calling, LoRA packs, and creative tooling integrations.
+## Llama 4 (Scout/Maverick) via Llama Stack
+- **Website:** https://github.com/llamastack/llama-stack
+- **Tags:** open-model, self-host, llama-stack, multi-modal
+- **License:** Llama 4 community license
+- **Overview:** Meta’s Llama 4 Scout and Maverick weights delivered through the MIT-licensed Llama Stack, enabling on-prem multimodal assistants with evaluator, tool, and telemetry modules.
 - **Use Cases:**
-  - Build custom creative agents that run on-prem with controllable privacy
-  - Automate asset tagging, captioning, and localization workflows
-- **Update Pulse:** Jun 2025 release highlighted on Meta AI blog
+  - Deploy privacy-sensitive creative directors in-region using Llama Stack components on managed H100 clusters
+  - Fine-tune Scout/Maverick variants for studio pipelines while monitoring performance through built-in telemetry
+- **Update Pulse:** Sep 2025 Llama Stack 0.2 release adds Llama 4 support and documents 8×H100 realtime guidance
 
-## OpenAI GPT-4o Realtime Studio
-- **Website:** https://openai.com
-- **Tags:** proprietary, assistant, realtime, multi-modal
+## OpenAI Realtime API (`gpt-realtime`)
+- **Website:** https://openai.com/index/introducing-gpt-realtime/
+- **Tags:** proprietary-model, realtime, audio, vision
 - **License:** Proprietary
-- **Overview:** Realtime GPT-4o environment enabling voice, vision, and tool orchestration for collaborative creative sessions.
+- **Overview:** OpenAI’s GA Realtime API delivering the `gpt-realtime` family with streaming voice, vision, and SIP/MCP integrations for always-on creative collaborators.
 - **Use Cases:**
-  - Conduct live creative reviews with instant asset iteration and summaries
-  - Script production plans that trigger downstream build scripts via APIs
-- **Update Pulse:** Aug 2025 upgrades documented in OpenAI release notes
+  - Build live creative review copilots that listen to meetings, iterate assets, and push actions into production tools
+  - Power voice-controlled edit sessions with sub-second response and tool execution over MCP
+- **Update Pulse:** Aug 2025 GA; usage billed from $32/M audio in and $64/M audio out plus standard token rates
 
-## xAI Grok Creative 3
+## xAI Grok 4
 - **Website:** https://x.ai
-- **Tags:** proprietary, assistant, realtime, data-integrations
+- **Tags:** proprietary-model, realtime, search, api
 - **License:** Proprietary
-- **Overview:** Real-time creative ideation assistant combining live data plugins with multi-modal generation tuned for social content.
+- **Overview:** xAI’s Grok 4 blends multimodal reasoning with live search and developer APIs, tuned for trend-aware creative ideation across social and news data.
 - **Use Cases:**
-  - Brainstorm topical video scripts using live trends and references
-  - Generate headline variants and motion prompts driven by real-time data
-- **Update Pulse:** Sep 2025 update shared via xAI announcement posts
+  - Draft culturally relevant campaign copy or motion prompts sourced from live platform trends
+  - Feed newsroom dashboards or alerting systems with Grok’s API for rapid fact-check prompts under xAI’s data-use policy
+- **Update Pulse:** Jul 2025 Grok 4 release; available via Premium+ subscriptions and paid API tiers
