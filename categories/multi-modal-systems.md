@@ -15,7 +15,7 @@ All-in-one studios blending text, images, audio, and code into cohesive creative
 - **Update Pulse:** Aug 2025 model refresh; API priced from $3/M input and $15/M output tokens
 
 ## Google Gemini 2.5 Pro / Deep Think
-- **Website:** https://gemini.google/subscriptions/
+- **Website:** https://gemini.google.com/
 - **Tags:** proprietary-model, workspace, reasoning, video
 - **License:** Proprietary (Gemini AI Pro/Ultra)
 - **Overview:** Google’s latest multimodal suite delivering Gemini 2.5 Pro with Deep Think reasoning plus Veo 3 video on AI Ultra, integrated across Workspace and the Gemini apps.

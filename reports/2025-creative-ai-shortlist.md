@@ -77,7 +77,7 @@ Since June 2025, creative-AI tooling has focused on controllability, live co-cre
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | OpenAI Realtime API (`gpt-realtime`) | Live creative directing & assistants | Voice streaming, MCP tools, SIP sessions | Sub-second multimodal responses; ensure network/data policies | Usage-based | Proprietary | Cloud | Yes | Aug 2025 GA; $32/M audio in, $64/M audio out | https://openai.com/index/introducing-gpt-realtime/ |
 | Anthropic Claude Sonnet 4 | Balanced multimodal briefs | Prompt, file uploads, tool use | Strong factuality with safety guardrails | Usage-based | Proprietary | Cloud | Yes | Aug 2025 model refresh; $3/M input, $15/M output | https://www.anthropic.com/claude/sonnet |
-| Google Gemini 2.5 Pro / Deep Think | Workspace-integrated production planning | Prompt, Deep Think, Veo 3 generation | Deep Think adds slower but thorough reasoning | Subscription (AI Pro/Ultra) | Proprietary | Cloud | Yes | Aug 2025 AI Pro/Ultra rollout with Veo 3 | https://gemini.google/subscriptions/ |
+| Google Gemini 2.5 Pro / Deep Think | Workspace-integrated production planning | Prompt, Deep Think, Veo 3 generation | Deep Think adds slower but thorough reasoning | Subscription (AI Pro/Ultra) | Proprietary | Cloud | Yes | Aug 2025 AI Pro/Ultra rollout with Veo 3 | https://gemini.google.com/ |
 | xAI Grok 4 | Trend-aware ideation & scripting | Prompt, live search, realtime API | Bold tone; review xAI TOS for sensitive work | Subscription/API | Proprietary | Cloud | Yes | Jul 2025 Grok 4 release | https://x.ai |
 | Llama 4 (Scout/Maverick) via Llama Stack | On-prem creative agents | Prompt, tool adapters, telemetry | Requires 8×H100 for realtime; full data control | Free | Llama 4 license | Hybrid | Yes | Sep 2025 Llama Stack 0.2 release adds Llama 4 support | https://github.com/llamastack/llama-stack |
 
@@ -173,7 +173,7 @@ See vendor sites and release notes for currency:
 - Krock.io — https://www.krock.io • https://www.krock.io/blog
 - OpenAI — https://openai.com/index/introducing-gpt-realtime/ • https://platform.openai.com/docs/guides/realtime
 - Anthropic — https://www.anthropic.com/claude/sonnet • https://www.anthropic.com/news
-- Google Gemini — https://gemini.google/subscriptions/ • https://workspaceupdates.googleblog.com
+- Google Gemini — https://gemini.google.com/ • https://workspaceupdates.googleblog.com
 - xAI Grok — https://x.ai • https://x.ai/blog
 - Llama Stack — https://github.com/llamastack/llama-stack • https://ai.meta.com/blog/llama-4-multimodal-intelligence/
 - PromptLayer — https://www.promptlayer.com • https://www.promptlayer.com/changelog
@@ -228,7 +228,7 @@ Weavy 2025 SDK,Collaboration & Asset Review,Embed collab in custom tools,"Compon
 Krock.io AI Review,Collaboration & Asset Review,Storyboard & video review,"Annotations; status rules; auto summaries","Solid for animation pipeline","$30–$100",Proprietary,Cloud,Yes,"Jul 2025 update",https://www.krock.io
 OpenAI Realtime API (`gpt-realtime`),Multimodal Assistants & Agentic Workflows,Live creative directing,"Voice streaming; MCP tools; SIP sessions","Sub-second multimodal responses; ensure network/data policies",Usage-based,Proprietary,Cloud,Yes,"Aug 2025 GA; $32/M audio in, $64/M audio out",https://openai.com/index/introducing-gpt-realtime/
 Anthropic Claude Sonnet 4,Multimodal Assistants & Agentic Workflows,Balanced multimodal briefs,"Prompt; file uploads; tool use","Strong factuality with safety guardrails",Usage-based,Proprietary,Cloud,Yes,"Aug 2025 model refresh; $3/M input, $15/M output",https://www.anthropic.com/claude/sonnet
-Google Gemini 2.5 Pro / Deep Think,Multimodal Assistants & Agentic Workflows,Workspace-integrated production,"Prompt; Deep Think; Veo 3 generation","Deep Think adds slower but thorough reasoning","Subscription (AI Pro/Ultra)",Proprietary,Cloud,Yes,"Aug 2025 AI Pro/Ultra rollout",https://gemini.google/subscriptions/
+Google Gemini 2.5 Pro / Deep Think,Multimodal Assistants & Agentic Workflows,Workspace-integrated production,"Prompt; Deep Think; Veo 3 generation","Deep Think adds slower but thorough reasoning","Subscription (AI Pro/Ultra)",Proprietary,Cloud,Yes,"Aug 2025 AI Pro/Ultra rollout",https://gemini.google.com/
 xAI Grok 4,Multimodal Assistants & Agentic Workflows,Trend-aware ideation & scripting,"Prompt; live search; realtime API","Bold tone; review xAI TOS for sensitive work","Subscription/API",Proprietary,Cloud,Yes,"Jul 2025 Grok 4 release",https://x.ai
 Llama 4 (Scout/Maverick) via Llama Stack,Multimodal Assistants & Agentic Workflows,On-prem creative agents,"Prompt; tool adapters; telemetry","Requires 8×H100 for realtime; full data control",Free,"Llama 4 license",Hybrid,Yes,"Sep 2025 Llama Stack 0.2 release",https://github.com/llamastack/llama-stack
 PromptLayer 2,Evaluation & Control,Prompt/version management,"Versioning; test jobs; metrics","Excellent audit trail","<$30",Proprietary,Cloud,Yes,"Jul 2025 relaunch",https://www.promptlayer.com
