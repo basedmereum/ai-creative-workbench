@@ -1,0 +1,25 @@
+name: Validate README tables
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  check-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Regenerate README tables
+        run: python scripts/build_readme.py
+
+      - name: Verify README is up to date
+        run: git diff --exit-code

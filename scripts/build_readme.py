@@ -139,6 +139,7 @@ def build_sections() -> str:
         section_lines = [
             f"## {display_name}",
             f"> Full entry template lives in `{rel_path.as_posix()}`.",
+            "",
             *build_table(entries),
             "",
         ]
