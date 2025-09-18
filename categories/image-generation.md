@@ -37,7 +37,7 @@ Tools that help artists and designers turn text, sketches, and data into finishe
 - **Update Pulse:** Aug 2025 LTS build published on GitHub releases
 
 ## Flux 1.0
-- **Website:** https://blackforestlabs.ai/flux
+- **Website:** https://playground.bfl.ai/
 - **Tags:** open-source, text-to-image, controlnet, photoreal
 - **License:** Apache-2.0
 - **Overview:** Open diffusion model delivering SDXL-level fidelity with native ControlNet and depth conditioning support.

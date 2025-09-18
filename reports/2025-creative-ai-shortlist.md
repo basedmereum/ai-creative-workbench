@@ -9,7 +9,7 @@ Since June 2025, creative-AI tooling has focused on controllability, live co-cre
 ### Image Generation & Editing
 | Tool | What it’s best for | Control levers | Output quality notes | Cost tier | License | Local vs Cloud | API? | Update pulse | Link |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Flux 1.0 | Cinematic photoreal with open weights | Prompt, depth, ControlNet, style refs | Clean edges, SDXL-class detail | Free | Open (Apache-2.0) | Hybrid | Yes | Aug 2025 weights refresh | https://blackforestlabs.ai/flux |
+| Flux 1.0 | Cinematic photoreal with open weights | Prompt, depth, ControlNet, style refs | Clean edges, SDXL-class detail | Free | Open (Apache-2.0) | Hybrid | Yes | Aug 2025 weights refresh | https://playground.bfl.ai/ |
 | Midjourney v7 | Stylized illustration & typography | Prompt, style ref, region remix | Strong composition, limited text fidelity | <$30 | Proprietary | Cloud | No | Jul 2025 beta drop | https://www.midjourney.com |
 | Adobe Firefly 3 | Brand-safe campaigns & vector fills | Prompt, reference image, type mask | CMYK-safe, tight typography | $30–$100 | Proprietary | Cloud | Yes | Aug 2025 release notes | https://www.adobe.com/products/firefly.html |
 | Ideogram 2.0 | Logo & headline ideation | Prompt, layout guides, glyph lock | Crisp lettering, limited photoreal | <$30 | Proprietary | Cloud | No | Jun 2025 type pack | https://ideogram.ai |
@@ -131,7 +131,7 @@ Since June 2025, creative-AI tooling has focused on controllability, live co-cre
 
 ## Citations
 See vendor sites and release notes for currency:
-- Flux 1.0 — https://blackforestlabs.ai/flux • https://blackforestlabs.ai/blog
+- Flux 1.0 — https://playground.bfl.ai/ • https://blackforestlabs.ai/blog
 - Midjourney — https://www.midjourney.com • https://docs.midjourney.com/changelog
 - Adobe Firefly — https://www.adobe.com/products/firefly.html • https://helpx.adobe.com/firefly/release-notes.html
 - Ideogram — https://ideogram.ai • https://medium.com/@ideogram-ai
@@ -184,7 +184,7 @@ See vendor sites and release notes for currency:
 ## Master Table CSV
 ```
 Tool,Category,What it’s best for,Control levers,Output quality notes,Cost tier,License,Local vs Cloud,API?,Update pulse,Link
-Flux 1.0,Image Generation & Editing,Cinematic photoreal with open weights,"Prompt; depth; ControlNet; style refs","Clean edges, SDXL-class detail",Free,"Open (Apache-2.0)",Hybrid,Yes,"Aug 2025 weights refresh",https://blackforestlabs.ai/flux
+Flux 1.0,Image Generation & Editing,Cinematic photoreal with open weights,"Prompt; depth; ControlNet; style refs","Clean edges, SDXL-class detail",Free,"Open (Apache-2.0)",Hybrid,Yes,"Aug 2025 weights refresh",https://playground.bfl.ai/
 Midjourney v7,Image Generation & Editing,Stylized illustration & typography,"Prompt; style ref; region remix","Strong composition, limited text fidelity","<$30",Proprietary,Cloud,No,"Jul 2025 beta drop",https://www.midjourney.com
 Adobe Firefly 3,Image Generation & Editing,Brand-safe campaigns & vector fills,"Prompt; reference image; type mask","CMYK-safe, tight typography","$30–$100",Proprietary,Cloud,Yes,"Aug 2025 release notes",https://www.adobe.com/products/firefly.html
 Ideogram 2.0,Image Generation & Editing,Logo & headline ideation,"Prompt; layout guides; glyph lock","Crisp lettering, limited photoreal","<$30",Proprietary,Cloud,No,"Jun 2025 type pack",https://ideogram.ai
