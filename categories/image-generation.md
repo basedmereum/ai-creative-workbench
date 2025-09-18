@@ -26,6 +26,16 @@ Tools that help artists and designers turn text, sketches, and data into finishe
   - Rapidly explore text effects, vector fills, and style variations from prompts
 - **Update Pulse:** Aug 2025 release notes highlight CMYK-safe typography upgrades
 
+## Adobe Photoshop 2025
+- **Website:** https://www.adobe.com/products/photoshop.html
+- **Tags:** proprietary, editing, generative-fill, workflow
+- **License:** Proprietary (Creative Cloud subscription)
+- **Overview:** Photoshop's 2025 release layers Generative Fill, reference image matching, and non-destructive masks into the classic editor.
+- **Use Cases:**
+  - Blend AI-generated elements with layered adjustments for production comps
+  - Extend or repair imagery with contextual Generative Fill and outpainting
+- **Update Pulse:** Aug 2025 release notes cover Generative Fill 2.0 and Reference Match
+
 ## ComfyUI 2025 LTS
 - **Website:** https://github.com/comfyanonymous/ComfyUI
 - **Tags:** open-source, node-editor, controlnet, workflow

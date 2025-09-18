@@ -53,3 +53,13 @@ Composition, sound design, and post-production AI that keeps musicians in the lo
   - Draft sync-friendly tracks with verse/chorus structure in minutes
   - Generate alternate mixes and instrumentals for social cutdowns
 - **Update Pulse:** Aug 2025 model update detailed on the Suno blog
+
+## Udio
+- **Website:** https://www.udio.com
+- **Tags:** proprietary, text-to-music, collaboration, stems
+- **License:** Proprietary (subscription)
+- **Overview:** Social music generator offering collaborative sessions, structured songwriting, and instant vocal harmonies.
+- **Use Cases:**
+  - Co-write tracks with collaborators simultaneously editing lyrics and arrangement
+  - Spin up alternate versions or instrumentals for campaign testing in seconds
+- **Update Pulse:** Aug 2025 release notes highlight collaborative rooms and stem exports
